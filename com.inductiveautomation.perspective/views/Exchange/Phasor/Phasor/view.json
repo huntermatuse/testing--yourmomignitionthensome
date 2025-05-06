@@ -1,0 +1,189 @@
+{
+  "custom": {
+    "lengthPx": 41.667
+  },
+  "params": {
+    "arrows": [
+      {
+        "angle": 180,
+        "color": "blue",
+        "label": "V1",
+        "length": 0.81
+      },
+      {
+        "angle": 0,
+        "color": "red",
+        "label": "I2",
+        "length": 0.8
+      }
+    ],
+    "categories": [
+      {
+        "name": 90
+      },
+      {
+        "name": ""
+      },
+      {
+        "name": ""
+      },
+      {
+        "name": 0
+      },
+      {
+        "name": ""
+      },
+      {
+        "name": ""
+      },
+      {
+        "name": 270
+      },
+      {
+        "name": ""
+      },
+      {
+        "name": ""
+      },
+      {
+        "name": 180
+      },
+      {
+        "name": ""
+      },
+      {
+        "name": ""
+      }
+    ],
+    "scales": 4
+  },
+  "propConfig": {
+    "custom.lengthPx": {
+      "persistent": true
+    },
+    "params.arrows": {
+      "paramDirection": "input",
+      "persistent": true
+    },
+    "params.categories": {
+      "paramDirection": "input",
+      "persistent": true
+    },
+    "params.scales": {
+      "paramDirection": "input",
+      "persistent": true
+    }
+  },
+  "props": {
+    "defaultSize": {
+      "height": 324,
+      "width": 397
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "phasor"
+        },
+        "position": {
+          "grow": 1
+        },
+        "propConfig": {
+          "props.elements[0].elements[0].elements": {
+            "binding": {
+              "config": {
+                "path": "view.params.scales"
+              },
+              "transforms": [
+                {
+                  "code": "\tret \u003d []\n\t\n\tdiffValue \u003d 41.66666666666667 / float(value)\n\tstartValue \u003d 41.66666666666667\n\t\n\tfor i in range(value):\n\t\tret.append({\n\t\t  \"type\": \"circle\",\n\t\t  \"style\": {\n\t\t\t\"classes\": \"exchange/phasor/scales\"\n\t\t  },\n\t\t  \"name\": \"circle\",\n\t\t  \"r\": \"%f\" % (startValue - (diffValue * float(i)))\n\t\t})\n\t\n\treturn ret",
+                  "type": "script"
+                }
+              ],
+              "type": "property"
+            }
+          },
+          "props.elements[0].elements[1].elements": {
+            "binding": {
+              "config": {
+                "path": "view.params.categories"
+              },
+              "transforms": [
+                {
+                  "code": "\tfrom java.lang import Math\n\tfrom com.inductiveautomation.ignition.common import Dataset\n\tret \u003d []\n\t\n\tif isinstance(value, Dataset):\n\t\tnumAxes \u003d value.getRowCount()\n\telse:\n\t\tnumAxes \u003d len(value)\n\t\t\n\tangle \u003d float(360) / float(numAxes)\n\tstartValue \u003d 41.66666666666667\n\tstartAngle \u003d 0\n\t\n\tfor i in range(numAxes):\n\t\ty \u003d startValue * Math.cos(Math.toRadians(startAngle)) * -1\n\t\tx \u003d startValue * Math.sin(Math.toRadians(startAngle))\n\t\t\n\t\tret.append({\n\t\t  \"type\": \"polyline\",\n\t\t  \"style\": {\n\t\t\t\"classes\": \"exchange/phasor/axes\"\n\t\t  },\n\t\t  \"name\": \"polyline\",\n\t\t  \"points\": \"0.0000,0.0000 %f,%f\" % (x, y)\n\t\t})\n\t\t\n\t\tstartAngle +\u003d angle\n\t\n\treturn ret",
+                  "type": "script"
+                }
+              ],
+              "type": "property"
+            }
+          },
+          "props.elements[0].elements[2].elements": {
+            "binding": {
+              "config": {
+                "path": "view.params.arrows"
+              },
+              "transforms": [
+                {
+                  "code": "\toutput \u003d [\n\t\t{\n\t\t  \"type\": \"group\",\n\t\t  \"style\": {\n\t\t    \"transform\": \"rotate(%fdeg)\" % (-i.angle),\n\t\t    \"transition\": \"all 1s\"\n\t\t  },\n\t\t  \"elements\": [\n\t\t    {\n\t\t      \"type\": \"path\",\n\t\t      \"style\": {\n\t\t        \"classes\": \"\",\n\t\t        \"fill\": i.color,\n\t\t        \"transition\": \"all 1s\",\n\t\t        \"stroke\": i.color,\n\t\t        \"stroke-width\": 1\n\t\t      },\n\t\t      \"name\": \"path\",\n\t\t      \"d\": \"M0 0 l%f 0 l0 -1 l2 1 l-2 1 l0 -1\" % (self.view.custom.lengthPx * i.length - 2)\n\t\t    },\n\t\t    {\n\t\t      \"type\": \"text\",\n\t\t      \"style\": {\n\t\t        \"classes\": \"exchange/phasor/label\",\n\t\t        \"textAnchor\": \"middle\",\n\t\t        \"transition\": \"all 1s\",\n\t\t        \"transform\": \"translateX(%fpx) rotate(%fdeg) translateY(1.5px)\" % ((self.view.custom.lengthPx * i.length + 3), i.angle),\n\t\t        \"transform-origin\": \"0 0\"\n\t\t      },\n\t\t      \"name\": \"label\",\n\t\t      \"x\": 0,\n\t\t      \"y\": 0,\n\t\t      \"text\": i.label\n\t\t    }\n\t\t  ],\n\t\t  \"name\": \"shape\"\n\t\t}\n\t\tfor i in value\n\t]\n\treturn output",
+                  "type": "script"
+                }
+              ],
+              "type": "property"
+            }
+          },
+          "props.elements[0].elements[3].elements": {
+            "binding": {
+              "config": {
+                "path": "view.params.categories"
+              },
+              "transforms": [
+                {
+                  "code": "\tfrom java.lang import Math\n\tfrom com.inductiveautomation.ignition.common import Dataset\n\tret \u003d []\n\t\n\tif isinstance(value, Dataset):\n\t\tnumAxes \u003d value.getRowCount()\n\telse:\n\t\tnumAxes \u003d len(value)\n\t\n\tangle \u003d float(360) / float(numAxes)\n\tstartValue \u003d 47.5\n\tstartAngle \u003d 0\n\t\n\tfor i in range(numAxes):\n\t\ty \u003d startValue * Math.cos(Math.toRadians(startAngle)) * -1\n\t\tx \u003d startValue * Math.sin(Math.toRadians(startAngle))\n\t\t\n\t\tif isinstance(value, Dataset):\n\t\t\tname \u003d value.getValueAt(i, \"name\")\n\t\telse:\n\t\t\tname \u003d value[i].name \n\t\t\n\t\tret.append({\n\t\t  \"type\": \"text\",\n\t\t  \"style\": {\n\t\t    \"classes\": \"exchange/phasor/label\",\n\t\t    \"textAnchor\": \"middle\"\n\t\t  },\n\t\t  \"dy\": \"1.5\",\n\t\t  \"name\": \"text\",\n\t\t  \"text\": \"%s\" % name,\n\t\t  \"x\": \"%f\" % x,\n\t\t  \"y\": \"%f\" % y\n\t\t})\n\t\t\n\t\tstartAngle +\u003d angle\n\t\n\treturn ret",
+                  "type": "script"
+                }
+              ],
+              "type": "property"
+            }
+          }
+        },
+        "props": {
+          "elements": [
+            {
+              "elements": [
+                {
+                  "name": "scales",
+                  "type": "group"
+                },
+                {
+                  "name": "axes",
+                  "type": "group"
+                },
+                {
+                  "name": "arrows",
+                  "type": "group"
+                },
+                {
+                  "name": "labels",
+                  "type": "group"
+                }
+              ],
+              "name": "phasor",
+              "transform": "translate(50.0000,50.0000)",
+              "type": "group"
+            }
+          ],
+          "viewBox": "-10 0 120 100"
+        },
+        "type": "ia.shapes.svg"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "direction": "column"
+    },
+    "type": "ia.container.flex"
+  }
+}

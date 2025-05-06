@@ -1,0 +1,4248 @@
+{
+  "custom": {
+    "analysis": {
+      "dataLoading": true,
+      "dataset": null,
+      "placeholderText": "No time range selected",
+      "series": [
+        {
+          "candlestick": {
+            "appearance": {
+              "deriveFieldsFromData": {
+                "fill": {
+                  "color": "",
+                  "opacity": ""
+                },
+                "stroke": {
+                  "color": "",
+                  "opacity": "",
+                  "width": ""
+                }
+              },
+              "fill": {
+                "color": "",
+                "opacity": 1
+              },
+              "heatRules": {
+                "dataField": "",
+                "enabled": false,
+                "max": "",
+                "min": ""
+              },
+              "stacked": false,
+              "stroke": {
+                "color": "",
+                "opacity": 1,
+                "width": 1
+              }
+            },
+            "high": {
+              "x": "",
+              "y": ""
+            },
+            "low": {
+              "x": "",
+              "y": ""
+            },
+            "open": {
+              "x": "",
+              "y": ""
+            }
+          },
+          "column": {
+            "appearance": {
+              "deriveFieldsFromData": {
+                "fill": {
+                  "color": "",
+                  "opacity": ""
+                },
+                "stroke": {
+                  "color": "",
+                  "opacity": "",
+                  "width": ""
+                }
+              },
+              "fill": {
+                "color": "",
+                "opacity": 1
+              },
+              "heatRules": {
+                "dataField": "",
+                "enabled": false,
+                "max": "",
+                "min": ""
+              },
+              "height": null,
+              "stacked": false,
+              "stroke": {
+                "color": "",
+                "opacity": 1,
+                "width": 1
+              },
+              "width": null
+            },
+            "open": {
+              "x": "",
+              "y": ""
+            }
+          },
+          "data": {
+            "source": "dataset",
+            "x": "zeroedSeconds",
+            "y": "A1"
+          },
+          "defaultState": {
+            "visible": true
+          },
+          "hiddenInLegend": false,
+          "label": {
+            "text": "A1 - V1"
+          },
+          "line": {
+            "appearance": {
+              "bullets": [
+                {
+                  "deriveFieldsFromData": {
+                    "fill": {
+                      "color": "",
+                      "opacity": ""
+                    },
+                    "rotation": "",
+                    "stroke": {
+                      "color": "",
+                      "opacity": "",
+                      "width": ""
+                    }
+                  },
+                  "enabled": false,
+                  "fill": {
+                    "color": "",
+                    "opacity": 0
+                  },
+                  "heatRules": {
+                    "dataField": "",
+                    "enabled": false,
+                    "max": 100,
+                    "min": 2
+                  },
+                  "height": 10,
+                  "label": {
+                    "position": {
+                      "dx": 0,
+                      "dy": 0
+                    },
+                    "text": "{value}"
+                  },
+                  "render": "circle",
+                  "rotation": 0,
+                  "stroke": {
+                    "color": "",
+                    "opacity": 0,
+                    "width": 1
+                  },
+                  "tooltip": {
+                    "background": {
+                      "color": "",
+                      "opacity": 1
+                    },
+                    "cornerRadius": 3,
+                    "enabled": false,
+                    "pointerLength": 4,
+                    "text": "{name}\nTime: {valueX}\nValue: [bold]{valueY}[/]"
+                  },
+                  "width": 10
+                }
+              ],
+              "connect": true,
+              "fill": {
+                "color": "",
+                "opacity": 0
+              },
+              "minDistance": 0.5,
+              "stroke": {
+                "color": "#FF5733",
+                "dashArray": "",
+                "opacity": 1,
+                "width": 3
+              },
+              "tensionX": 1,
+              "tensionY": 1
+            },
+            "open": {
+              "x": "",
+              "y": ""
+            }
+          },
+          "name": "A1 - V1",
+          "render": "line",
+          "stepLine": {
+            "appearance": {
+              "bullets": [
+                {
+                  "deriveFieldsFromData": {
+                    "fill": {
+                      "color": "",
+                      "opacity": ""
+                    },
+                    "rotation": "",
+                    "stroke": {
+                      "color": "",
+                      "opacity": "",
+                      "width": ""
+                    }
+                  },
+                  "enabled": true,
+                  "fill": {
+                    "color": "",
+                    "opacity": 1
+                  },
+                  "heatRules": {
+                    "dataField": "",
+                    "enabled": false,
+                    "max": 100,
+                    "min": 2
+                  },
+                  "height": 10,
+                  "label": {
+                    "position": {
+                      "dx": 0,
+                      "dy": 0
+                    },
+                    "text": "{value}"
+                  },
+                  "render": "circle",
+                  "rotation": 0,
+                  "stroke": {
+                    "color": "",
+                    "opacity": 1,
+                    "width": 1
+                  },
+                  "tooltip": {
+                    "background": {
+                      "color": "",
+                      "opacity": 1
+                    },
+                    "cornerRadius": 3,
+                    "enabled": true,
+                    "pointerLength": 4,
+                    "text": "{name}: [bold]{valueY}[/]"
+                  },
+                  "width": 10
+                }
+              ],
+              "connect": true,
+              "fill": {
+                "color": "",
+                "opacity": 0
+              },
+              "minDistance": 0.5,
+              "stroke": {
+                "color": "",
+                "dashArray": "",
+                "opacity": 1,
+                "width": 3
+              },
+              "tensionX": 1,
+              "tensionY": 1
+            },
+            "open": {
+              "x": "",
+              "y": ""
+            }
+          },
+          "tooltip": {
+            "background": {
+              "color": "",
+              "opacity": 1
+            },
+            "cornerRadius": 3,
+            "enabled": true,
+            "pointerLength": 4,
+            "text": "{name}: [bold]{valueY}[/]"
+          },
+          "visible": true,
+          "xAxis": "time",
+          "yAxis": "Left",
+          "zIndex": 0
+        },
+        {
+          "candlestick": {
+            "appearance": {
+              "deriveFieldsFromData": {
+                "fill": {
+                  "color": "",
+                  "opacity": ""
+                },
+                "stroke": {
+                  "color": "",
+                  "opacity": "",
+                  "width": ""
+                }
+              },
+              "fill": {
+                "color": "",
+                "opacity": 1
+              },
+              "heatRules": {
+                "dataField": "",
+                "enabled": false,
+                "max": "",
+                "min": ""
+              },
+              "stacked": false,
+              "stroke": {
+                "color": "",
+                "opacity": 1,
+                "width": 1
+              }
+            },
+            "high": {
+              "x": "",
+              "y": ""
+            },
+            "low": {
+              "x": "",
+              "y": ""
+            },
+            "open": {
+              "x": "",
+              "y": ""
+            }
+          },
+          "column": {
+            "appearance": {
+              "deriveFieldsFromData": {
+                "fill": {
+                  "color": "",
+                  "opacity": ""
+                },
+                "stroke": {
+                  "color": "",
+                  "opacity": "",
+                  "width": ""
+                }
+              },
+              "fill": {
+                "color": "",
+                "opacity": 1
+              },
+              "heatRules": {
+                "dataField": "",
+                "enabled": false,
+                "max": "",
+                "min": ""
+              },
+              "height": null,
+              "stacked": false,
+              "stroke": {
+                "color": "",
+                "opacity": 1,
+                "width": 1
+              },
+              "width": null
+            },
+            "open": {
+              "x": "",
+              "y": ""
+            }
+          },
+          "data": {
+            "source": "dataset",
+            "x": "zeroedSeconds",
+            "y": "A2"
+          },
+          "defaultState": {
+            "visible": true
+          },
+          "hiddenInLegend": false,
+          "label": {
+            "text": "A2 - V2"
+          },
+          "line": {
+            "appearance": {
+              "bullets": [
+                {
+                  "deriveFieldsFromData": {
+                    "fill": {
+                      "color": "",
+                      "opacity": ""
+                    },
+                    "rotation": "",
+                    "stroke": {
+                      "color": "",
+                      "opacity": "",
+                      "width": ""
+                    }
+                  },
+                  "enabled": false,
+                  "fill": {
+                    "color": "",
+                    "opacity": 0
+                  },
+                  "heatRules": {
+                    "dataField": "",
+                    "enabled": false,
+                    "max": 100,
+                    "min": 2
+                  },
+                  "height": 10,
+                  "label": {
+                    "position": {
+                      "dx": 0,
+                      "dy": 0
+                    },
+                    "text": "{value}"
+                  },
+                  "render": "circle",
+                  "rotation": 0,
+                  "stroke": {
+                    "color": "",
+                    "opacity": 0,
+                    "width": 1
+                  },
+                  "tooltip": {
+                    "background": {
+                      "color": "",
+                      "opacity": 1
+                    },
+                    "cornerRadius": 3,
+                    "enabled": false,
+                    "pointerLength": 4,
+                    "text": "{name}\nTime: {valueX}\nValue: [bold]{valueY}[/]"
+                  },
+                  "width": 10
+                }
+              ],
+              "connect": true,
+              "fill": {
+                "color": "",
+                "opacity": 0
+              },
+              "minDistance": 0.5,
+              "stroke": {
+                "color": "#33FF57",
+                "dashArray": "",
+                "opacity": 1,
+                "width": 3
+              },
+              "tensionX": 1,
+              "tensionY": 1
+            },
+            "open": {
+              "x": "",
+              "y": ""
+            }
+          },
+          "name": "A2 - V2",
+          "render": "line",
+          "stepLine": {
+            "appearance": {
+              "bullets": [
+                {
+                  "deriveFieldsFromData": {
+                    "fill": {
+                      "color": "",
+                      "opacity": ""
+                    },
+                    "rotation": "",
+                    "stroke": {
+                      "color": "",
+                      "opacity": "",
+                      "width": ""
+                    }
+                  },
+                  "enabled": true,
+                  "fill": {
+                    "color": "",
+                    "opacity": 1
+                  },
+                  "heatRules": {
+                    "dataField": "",
+                    "enabled": false,
+                    "max": 100,
+                    "min": 2
+                  },
+                  "height": 10,
+                  "label": {
+                    "position": {
+                      "dx": 0,
+                      "dy": 0
+                    },
+                    "text": "{value}"
+                  },
+                  "render": "circle",
+                  "rotation": 0,
+                  "stroke": {
+                    "color": "",
+                    "opacity": 1,
+                    "width": 1
+                  },
+                  "tooltip": {
+                    "background": {
+                      "color": "",
+                      "opacity": 1
+                    },
+                    "cornerRadius": 3,
+                    "enabled": true,
+                    "pointerLength": 4,
+                    "text": "{name}: [bold]{valueY}[/]"
+                  },
+                  "width": 10
+                }
+              ],
+              "connect": true,
+              "fill": {
+                "color": "",
+                "opacity": 0
+              },
+              "minDistance": 0.5,
+              "stroke": {
+                "color": "",
+                "dashArray": "",
+                "opacity": 1,
+                "width": 3
+              },
+              "tensionX": 1,
+              "tensionY": 1
+            },
+            "open": {
+              "x": "",
+              "y": ""
+            }
+          },
+          "tooltip": {
+            "background": {
+              "color": "",
+              "opacity": 1
+            },
+            "cornerRadius": 3,
+            "enabled": true,
+            "pointerLength": 4,
+            "text": "{name}: [bold]{valueY}[/]"
+          },
+          "visible": true,
+          "xAxis": "time",
+          "yAxis": "Left",
+          "zIndex": 0
+        },
+        {
+          "candlestick": {
+            "appearance": {
+              "deriveFieldsFromData": {
+                "fill": {
+                  "color": "",
+                  "opacity": ""
+                },
+                "stroke": {
+                  "color": "",
+                  "opacity": "",
+                  "width": ""
+                }
+              },
+              "fill": {
+                "color": "",
+                "opacity": 1
+              },
+              "heatRules": {
+                "dataField": "",
+                "enabled": false,
+                "max": "",
+                "min": ""
+              },
+              "stacked": false,
+              "stroke": {
+                "color": "",
+                "opacity": 1,
+                "width": 1
+              }
+            },
+            "high": {
+              "x": "",
+              "y": ""
+            },
+            "low": {
+              "x": "",
+              "y": ""
+            },
+            "open": {
+              "x": "",
+              "y": ""
+            }
+          },
+          "column": {
+            "appearance": {
+              "deriveFieldsFromData": {
+                "fill": {
+                  "color": "",
+                  "opacity": ""
+                },
+                "stroke": {
+                  "color": "",
+                  "opacity": "",
+                  "width": ""
+                }
+              },
+              "fill": {
+                "color": "",
+                "opacity": 1
+              },
+              "heatRules": {
+                "dataField": "",
+                "enabled": false,
+                "max": "",
+                "min": ""
+              },
+              "height": null,
+              "stacked": false,
+              "stroke": {
+                "color": "",
+                "opacity": 1,
+                "width": 1
+              },
+              "width": null
+            },
+            "open": {
+              "x": "",
+              "y": ""
+            }
+          },
+          "data": {
+            "source": "dataset",
+            "x": "zeroedSeconds",
+            "y": "A3"
+          },
+          "defaultState": {
+            "visible": true
+          },
+          "hiddenInLegend": false,
+          "label": {
+            "text": "A3 - V3"
+          },
+          "line": {
+            "appearance": {
+              "bullets": [
+                {
+                  "deriveFieldsFromData": {
+                    "fill": {
+                      "color": "",
+                      "opacity": ""
+                    },
+                    "rotation": "",
+                    "stroke": {
+                      "color": "",
+                      "opacity": "",
+                      "width": ""
+                    }
+                  },
+                  "enabled": false,
+                  "fill": {
+                    "color": "",
+                    "opacity": 0
+                  },
+                  "heatRules": {
+                    "dataField": "",
+                    "enabled": false,
+                    "max": 100,
+                    "min": 2
+                  },
+                  "height": 10,
+                  "label": {
+                    "position": {
+                      "dx": 0,
+                      "dy": 0
+                    },
+                    "text": "{value}"
+                  },
+                  "render": "circle",
+                  "rotation": 0,
+                  "stroke": {
+                    "color": "",
+                    "opacity": 0,
+                    "width": 1
+                  },
+                  "tooltip": {
+                    "background": {
+                      "color": "",
+                      "opacity": 1
+                    },
+                    "cornerRadius": 3,
+                    "enabled": false,
+                    "pointerLength": 4,
+                    "text": "{name}\nTime: {valueX}\nValue: [bold]{valueY}[/]"
+                  },
+                  "width": 10
+                }
+              ],
+              "connect": true,
+              "fill": {
+                "color": "",
+                "opacity": 0
+              },
+              "minDistance": 0.5,
+              "stroke": {
+                "color": "#3357FF",
+                "dashArray": "",
+                "opacity": 1,
+                "width": 3
+              },
+              "tensionX": 1,
+              "tensionY": 1
+            },
+            "open": {
+              "x": "",
+              "y": ""
+            }
+          },
+          "name": "A3 - V3",
+          "render": "line",
+          "stepLine": {
+            "appearance": {
+              "bullets": [
+                {
+                  "deriveFieldsFromData": {
+                    "fill": {
+                      "color": "",
+                      "opacity": ""
+                    },
+                    "rotation": "",
+                    "stroke": {
+                      "color": "",
+                      "opacity": "",
+                      "width": ""
+                    }
+                  },
+                  "enabled": true,
+                  "fill": {
+                    "color": "",
+                    "opacity": 1
+                  },
+                  "heatRules": {
+                    "dataField": "",
+                    "enabled": false,
+                    "max": 100,
+                    "min": 2
+                  },
+                  "height": 10,
+                  "label": {
+                    "position": {
+                      "dx": 0,
+                      "dy": 0
+                    },
+                    "text": "{value}"
+                  },
+                  "render": "circle",
+                  "rotation": 0,
+                  "stroke": {
+                    "color": "",
+                    "opacity": 1,
+                    "width": 1
+                  },
+                  "tooltip": {
+                    "background": {
+                      "color": "",
+                      "opacity": 1
+                    },
+                    "cornerRadius": 3,
+                    "enabled": true,
+                    "pointerLength": 4,
+                    "text": "{name}: [bold]{valueY}[/]"
+                  },
+                  "width": 10
+                }
+              ],
+              "connect": true,
+              "fill": {
+                "color": "",
+                "opacity": 0
+              },
+              "minDistance": 0.5,
+              "stroke": {
+                "color": "",
+                "dashArray": "",
+                "opacity": 1,
+                "width": 3
+              },
+              "tensionX": 1,
+              "tensionY": 1
+            },
+            "open": {
+              "x": "",
+              "y": ""
+            }
+          },
+          "tooltip": {
+            "background": {
+              "color": "",
+              "opacity": 1
+            },
+            "cornerRadius": 3,
+            "enabled": true,
+            "pointerLength": 4,
+            "text": "{name}: [bold]{valueY}[/]"
+          },
+          "visible": true,
+          "xAxis": "time",
+          "yAxis": "Left",
+          "zIndex": 0
+        }
+      ],
+      "seriesTemplate": {
+        "candlestick": {
+          "appearance": {
+            "deriveFieldsFromData": {
+              "fill": {
+                "color": "",
+                "opacity": ""
+              },
+              "stroke": {
+                "color": "",
+                "opacity": "",
+                "width": ""
+              }
+            },
+            "fill": {
+              "color": "",
+              "opacity": 1
+            },
+            "heatRules": {
+              "dataField": "",
+              "enabled": false,
+              "max": "",
+              "min": ""
+            },
+            "stacked": false,
+            "stroke": {
+              "color": "",
+              "opacity": 1,
+              "width": 1
+            }
+          },
+          "high": {
+            "x": "",
+            "y": ""
+          },
+          "low": {
+            "x": "",
+            "y": ""
+          },
+          "open": {
+            "x": "",
+            "y": ""
+          }
+        },
+        "column": {
+          "appearance": {
+            "deriveFieldsFromData": {
+              "fill": {
+                "color": "",
+                "opacity": ""
+              },
+              "stroke": {
+                "color": "",
+                "opacity": "",
+                "width": ""
+              }
+            },
+            "fill": {
+              "color": "",
+              "opacity": 1
+            },
+            "heatRules": {
+              "dataField": "",
+              "enabled": false,
+              "max": "",
+              "min": ""
+            },
+            "height": null,
+            "stacked": false,
+            "stroke": {
+              "color": "",
+              "opacity": 1,
+              "width": 1
+            },
+            "width": null
+          },
+          "open": {
+            "x": "",
+            "y": ""
+          }
+        },
+        "data": {
+          "source": "dataset",
+          "x": "zeroedSeconds",
+          "y": "zeroedSeconds"
+        },
+        "defaultState": {
+          "visible": true
+        },
+        "hiddenInLegend": false,
+        "label": {
+          "text": "Select Channel"
+        },
+        "line": {
+          "appearance": {
+            "bullets": [
+              {
+                "deriveFieldsFromData": {
+                  "fill": {
+                    "color": "",
+                    "opacity": ""
+                  },
+                  "rotation": "",
+                  "stroke": {
+                    "color": "",
+                    "opacity": "",
+                    "width": ""
+                  }
+                },
+                "enabled": false,
+                "fill": {
+                  "color": "",
+                  "opacity": 0
+                },
+                "heatRules": {
+                  "dataField": "",
+                  "enabled": false,
+                  "max": 100,
+                  "min": 2
+                },
+                "height": 10,
+                "label": {
+                  "position": {
+                    "dx": 0,
+                    "dy": 0
+                  },
+                  "text": "{value}"
+                },
+                "render": "circle",
+                "rotation": 0,
+                "stroke": {
+                  "color": "",
+                  "opacity": 0,
+                  "width": 1
+                },
+                "tooltip": {
+                  "background": {
+                    "color": "",
+                    "opacity": 1
+                  },
+                  "cornerRadius": 3,
+                  "enabled": false,
+                  "pointerLength": 4,
+                  "text": "{name}\nTime: {valueX}\nValue: [bold]{valueY}[/]"
+                },
+                "width": 10
+              }
+            ],
+            "connect": true,
+            "fill": {
+              "color": "",
+              "opacity": 0
+            },
+            "minDistance": 0.5,
+            "stroke": {
+              "color": "",
+              "dashArray": "",
+              "opacity": 1,
+              "width": 3
+            },
+            "tensionX": 1,
+            "tensionY": 1
+          },
+          "open": {
+            "x": "",
+            "y": ""
+          }
+        },
+        "name": "placeholder",
+        "render": "line",
+        "stepLine": {
+          "appearance": {
+            "bullets": [
+              {
+                "deriveFieldsFromData": {
+                  "fill": {
+                    "color": "",
+                    "opacity": ""
+                  },
+                  "rotation": "",
+                  "stroke": {
+                    "color": "",
+                    "opacity": "",
+                    "width": ""
+                  }
+                },
+                "enabled": true,
+                "fill": {
+                  "color": "",
+                  "opacity": 1
+                },
+                "heatRules": {
+                  "dataField": "",
+                  "enabled": false,
+                  "max": 100,
+                  "min": 2
+                },
+                "height": 10,
+                "label": {
+                  "position": {
+                    "dx": 0,
+                    "dy": 0
+                  },
+                  "text": "{value}"
+                },
+                "render": "circle",
+                "rotation": 0,
+                "stroke": {
+                  "color": "",
+                  "opacity": 1,
+                  "width": 1
+                },
+                "tooltip": {
+                  "background": {
+                    "color": "",
+                    "opacity": 1
+                  },
+                  "cornerRadius": 3,
+                  "enabled": true,
+                  "pointerLength": 4,
+                  "text": "{name}: [bold]{valueY}[/]"
+                },
+                "width": 10
+              }
+            ],
+            "connect": true,
+            "fill": {
+              "color": "",
+              "opacity": 0
+            },
+            "minDistance": 0.5,
+            "stroke": {
+              "color": "",
+              "dashArray": "",
+              "opacity": 1,
+              "width": 3
+            },
+            "tensionX": 1,
+            "tensionY": 1
+          },
+          "open": {
+            "x": "",
+            "y": ""
+          }
+        },
+        "tooltip": {
+          "background": {
+            "color": "",
+            "opacity": 1
+          },
+          "cornerRadius": 3,
+          "enabled": true,
+          "pointerLength": 4,
+          "text": "{name}: [bold]{valueY}[/]"
+        },
+        "visible": false,
+        "xAxis": "time",
+        "yAxis": "Left",
+        "zIndex": 0
+      },
+      "xtrace": false
+    },
+    "analysisCalculate": {
+      "$": [
+        "ts",
+        192,
+        1738006457343
+      ],
+      "$ts": 1738006457343
+    },
+    "colors": [
+      "#FF5733",
+      "#33FF57",
+      "#3357FF",
+      "#FF33A1",
+      "#33FFA1",
+      "#A133FF",
+      "#FF8C33",
+      "#33FF8C",
+      "#8C33FF",
+      "#FF3333",
+      "#33FF33",
+      "#3333FF",
+      "#FF33FF",
+      "#33FFFF",
+      "#FFFF33",
+      "#FF6633",
+      "#33FF66",
+      "#6633FF",
+      "#FF3366",
+      "#33FF99",
+      "#9933FF",
+      "#FF9933",
+      "#33FFCC",
+      "#CC33FF",
+      "#FFCC33",
+      "#FF3366",
+      "#66FF33",
+      "#3366FF",
+      "#FF33CC",
+      "#33FF66",
+      "#66FF33",
+      "#FF6633",
+      "#33FF99",
+      "#99FF33",
+      "#FF9933",
+      "#33FFCC",
+      "#CCFF33",
+      "#FFCC33",
+      "#FF3366",
+      "#66FF99",
+      "#3366FF",
+      "#FF33CC",
+      "#33FF66",
+      "#66FF33",
+      "#FF6633",
+      "#33FF99",
+      "#99FF33",
+      "#FF9933",
+      "#33FFCC",
+      "#CCFF33",
+      "#FFCC33",
+      "#FF3366",
+      "#66FF99",
+      "#3366FF",
+      "#FF33CC",
+      "#33FF66",
+      "#66FF33",
+      "#FF6633",
+      "#33FF99",
+      "#99FF33",
+      "#FF9933",
+      "#33FFCC",
+      "#CCFF33",
+      "#FFCC33",
+      "#FF3366",
+      "#66FF99",
+      "#3366FF",
+      "#FF33CC",
+      "#33FF66",
+      "#66FF33",
+      "#FF6633",
+      "#33FF99",
+      "#99FF33",
+      "#FF9933",
+      "#33FFCC",
+      "#CCFF33",
+      "#FFCC33",
+      "#FF3366",
+      "#66FF99",
+      "#3366FF",
+      "#FF33CC",
+      "#33FF66",
+      "#66FF33",
+      "#FF6633",
+      "#33FF99",
+      "#99FF33",
+      "#FF9933",
+      "#33FFCC",
+      "#CCFF33",
+      "#FFCC33",
+      "#FF3366",
+      "#66FF99",
+      "#3366FF",
+      "#FF33CC",
+      "#33FF66",
+      "#66FF33",
+      "#FF6633",
+      "#33FF99",
+      "#99FF33",
+      "#FF9933"
+    ],
+    "options": {
+      "channels": {
+        "instanceTemplate": {
+          "channel": "value",
+          "instancePosition": {},
+          "instanceStyle": {
+            "classes": ""
+          },
+          "text": "xyz",
+          "tooltip": "Tooltip Placeholder",
+          "value": false
+        }
+      },
+      "dateFormat": "dd/MM/yyyy"
+    },
+    "parsedData": {
+      "data": null,
+      "filename": "No file selected",
+      "startTimeOffset": 1645039500000,
+      "timestamp": {
+        "$": [
+          "ts",
+          192,
+          1738006457339
+        ],
+        "$ts": 1738006457339
+      }
+    },
+    "rangeSelector": {
+      "placeholderText": "Select file to display",
+      "selectedRange": {
+        "end": {
+          "$": [
+            "ts",
+            192,
+            1737756878631
+          ],
+          "$ts": 1645039539264
+        },
+        "start": {
+          "$": [
+            "ts",
+            192,
+            1737756878631
+          ],
+          "$ts": 1645039539264
+        }
+      },
+      "zeroedRange": {
+        "max": 39.303,
+        "min": 39.283,
+        "useStrict": true
+      }
+    },
+    "tree": {
+      "items": [
+        {
+          "data": {
+            "fullPath": "/usr/local/bin/ignition/webserver/webapps/comtrade/storage/local",
+            "isFile": false,
+            "timestamp": {
+              "$": [
+                "ts",
+                192,
+                1738006457349
+              ],
+              "$ts": 1738006457348
+            }
+          },
+          "expanded": false,
+          "items": [
+            {
+              "data": {
+                "fullPath": "/usr/local/bin/ignition/webserver/webapps/comtrade/storage/local/test_data1",
+                "isFile": false,
+                "timestamp": {
+                  "$": [
+                    "ts",
+                    192,
+                    1738006457349
+                  ],
+                  "$ts": 1738006457348
+                }
+              },
+              "expanded": false,
+              "items": [
+                {
+                  "data": {
+                    "fullPath": "/usr/local/bin/ignition/webserver/webapps/comtrade/storage/local/test_data1/test1.cfg",
+                    "isFile": true,
+                    "timestamp": {
+                      "$": [
+                        "ts",
+                        192,
+                        1738006457349
+                      ],
+                      "$ts": 1738006457348
+                    }
+                  },
+                  "expanded": false,
+                  "items": [],
+                  "label": "test1.cfg"
+                },
+                {
+                  "data": {
+                    "fullPath": "/usr/local/bin/ignition/webserver/webapps/comtrade/storage/local/test_data1/test1.dat",
+                    "isFile": true,
+                    "timestamp": {
+                      "$": [
+                        "ts",
+                        192,
+                        1738006457349
+                      ],
+                      "$ts": 1738006457348
+                    }
+                  },
+                  "expanded": false,
+                  "items": [],
+                  "label": "test1.dat"
+                },
+                {
+                  "data": {
+                    "fullPath": "/usr/local/bin/ignition/webserver/webapps/comtrade/storage/local/test_data1/test1.inf",
+                    "isFile": true,
+                    "timestamp": {
+                      "$": [
+                        "ts",
+                        192,
+                        1738006457349
+                      ],
+                      "$ts": 1738006457348
+                    }
+                  },
+                  "expanded": false,
+                  "items": [],
+                  "label": "test1.inf"
+                }
+              ],
+              "label": "test_data1"
+            },
+            {
+              "data": {
+                "fullPath": "/usr/local/bin/ignition/webserver/webapps/comtrade/storage/local/test_data2",
+                "isFile": false,
+                "timestamp": {
+                  "$": [
+                    "ts",
+                    192,
+                    1738006457349
+                  ],
+                  "$ts": 1738006457348
+                }
+              },
+              "expanded": false,
+              "items": [
+                {
+                  "data": {
+                    "fullPath": "/usr/local/bin/ignition/webserver/webapps/comtrade/storage/local/test_data2/test2.cfg",
+                    "isFile": true,
+                    "timestamp": {
+                      "$": [
+                        "ts",
+                        192,
+                        1738006457349
+                      ],
+                      "$ts": 1738006457348
+                    }
+                  },
+                  "expanded": false,
+                  "items": [],
+                  "label": "test2.cfg"
+                },
+                {
+                  "data": {
+                    "fullPath": "/usr/local/bin/ignition/webserver/webapps/comtrade/storage/local/test_data2/test2.dat",
+                    "isFile": true,
+                    "timestamp": {
+                      "$": [
+                        "ts",
+                        192,
+                        1738006457349
+                      ],
+                      "$ts": 1738006457348
+                    }
+                  },
+                  "expanded": false,
+                  "items": [],
+                  "label": "test2.dat"
+                },
+                {
+                  "data": {
+                    "fullPath": "/usr/local/bin/ignition/webserver/webapps/comtrade/storage/local/test_data2/test2.inf",
+                    "isFile": true,
+                    "timestamp": {
+                      "$": [
+                        "ts",
+                        192,
+                        1738006457349
+                      ],
+                      "$ts": 1738006457348
+                    }
+                  },
+                  "expanded": false,
+                  "items": [],
+                  "label": "test2.inf"
+                }
+              ],
+              "label": "test_data2"
+            },
+            {
+              "data": {
+                "fullPath": "/usr/local/bin/ignition/webserver/webapps/comtrade/storage/local/test_data3",
+                "isFile": false,
+                "timestamp": {
+                  "$": [
+                    "ts",
+                    192,
+                    1738006457349
+                  ],
+                  "$ts": 1738006457348
+                }
+              },
+              "expanded": false,
+              "items": [
+                {
+                  "data": {
+                    "fullPath": "/usr/local/bin/ignition/webserver/webapps/comtrade/storage/local/test_data3/test3.cfg",
+                    "isFile": true,
+                    "timestamp": {
+                      "$": [
+                        "ts",
+                        192,
+                        1738006457349
+                      ],
+                      "$ts": 1738006457349
+                    }
+                  },
+                  "expanded": false,
+                  "items": [],
+                  "label": "test3.cfg"
+                },
+                {
+                  "data": {
+                    "fullPath": "/usr/local/bin/ignition/webserver/webapps/comtrade/storage/local/test_data3/test3.dat",
+                    "isFile": true,
+                    "timestamp": {
+                      "$": [
+                        "ts",
+                        192,
+                        1738006457349
+                      ],
+                      "$ts": 1738006457349
+                    }
+                  },
+                  "expanded": false,
+                  "items": [],
+                  "label": "test3.dat"
+                },
+                {
+                  "data": {
+                    "fullPath": "/usr/local/bin/ignition/webserver/webapps/comtrade/storage/local/test_data3/test3.inf",
+                    "isFile": true,
+                    "timestamp": {
+                      "$": [
+                        "ts",
+                        192,
+                        1738006457349
+                      ],
+                      "$ts": 1738006457349
+                    }
+                  },
+                  "expanded": false,
+                  "items": [],
+                  "label": "test3.inf"
+                },
+                {
+                  "data": {
+                    "fullPath": "/usr/local/bin/ignition/webserver/webapps/comtrade/storage/local/test_data3/test3_ascii.cfg",
+                    "isFile": true,
+                    "timestamp": {
+                      "$": [
+                        "ts",
+                        192,
+                        1738006457349
+                      ],
+                      "$ts": 1738006457349
+                    }
+                  },
+                  "expanded": false,
+                  "items": [],
+                  "label": "test3_ascii.cfg"
+                },
+                {
+                  "data": {
+                    "fullPath": "/usr/local/bin/ignition/webserver/webapps/comtrade/storage/local/test_data3/test3_ascii.dat",
+                    "isFile": true,
+                    "timestamp": {
+                      "$": [
+                        "ts",
+                        192,
+                        1738006457349
+                      ],
+                      "$ts": 1738006457349
+                    }
+                  },
+                  "expanded": false,
+                  "items": [],
+                  "label": "test3_ascii.dat"
+                },
+                {
+                  "data": {
+                    "fullPath": "/usr/local/bin/ignition/webserver/webapps/comtrade/storage/local/test_data3/test3_ascii.inf",
+                    "isFile": true,
+                    "timestamp": {
+                      "$": [
+                        "ts",
+                        192,
+                        1738006457349
+                      ],
+                      "$ts": 1738006457349
+                    }
+                  },
+                  "expanded": false,
+                  "items": [],
+                  "label": "test3_ascii.inf"
+                }
+              ],
+              "label": "test_data3"
+            },
+            {
+              "data": {
+                "fullPath": "/usr/local/bin/ignition/webserver/webapps/comtrade/storage/local/test_data4",
+                "isFile": false,
+                "timestamp": {
+                  "$": [
+                    "ts",
+                    192,
+                    1738006457349
+                  ],
+                  "$ts": 1738006457349
+                }
+              },
+              "expanded": false,
+              "items": [
+                {
+                  "data": {
+                    "fullPath": "/usr/local/bin/ignition/webserver/webapps/comtrade/storage/local/test_data4/test4.cfg",
+                    "isFile": true,
+                    "timestamp": {
+                      "$": [
+                        "ts",
+                        192,
+                        1738006457349
+                      ],
+                      "$ts": 1738006457349
+                    }
+                  },
+                  "expanded": false,
+                  "items": [],
+                  "label": "test4.cfg"
+                },
+                {
+                  "data": {
+                    "fullPath": "/usr/local/bin/ignition/webserver/webapps/comtrade/storage/local/test_data4/test4.dat",
+                    "isFile": true,
+                    "timestamp": {
+                      "$": [
+                        "ts",
+                        192,
+                        1738006457349
+                      ],
+                      "$ts": 1738006457349
+                    }
+                  },
+                  "expanded": false,
+                  "items": [],
+                  "label": "test4.dat"
+                }
+              ],
+              "label": "test_data4"
+            },
+            {
+              "data": {
+                "fullPath": "/usr/local/bin/ignition/webserver/webapps/comtrade/storage/local/test_data5",
+                "isFile": false,
+                "timestamp": {
+                  "$": [
+                    "ts",
+                    192,
+                    1738006457349
+                  ],
+                  "$ts": 1738006457349
+                }
+              },
+              "expanded": false,
+              "items": [
+                {
+                  "data": {
+                    "fullPath": "/usr/local/bin/ignition/webserver/webapps/comtrade/storage/local/test_data5/test5.cfg",
+                    "isFile": true,
+                    "timestamp": {
+                      "$": [
+                        "ts",
+                        192,
+                        1738006457349
+                      ],
+                      "$ts": 1738006457349
+                    }
+                  },
+                  "expanded": false,
+                  "items": [],
+                  "label": "test5.cfg"
+                },
+                {
+                  "data": {
+                    "fullPath": "/usr/local/bin/ignition/webserver/webapps/comtrade/storage/local/test_data5/test5.dat",
+                    "isFile": true,
+                    "timestamp": {
+                      "$": [
+                        "ts",
+                        192,
+                        1738006457349
+                      ],
+                      "$ts": 1738006457349
+                    }
+                  },
+                  "expanded": false,
+                  "items": [],
+                  "label": "test5.dat"
+                }
+              ],
+              "label": "test_data5"
+            }
+          ],
+          "label": "local"
+        },
+        {
+          "data": {
+            "fullPath": "/usr/local/bin/ignition/webserver/webapps/comtrade/storage/upload",
+            "isFile": false,
+            "timestamp": {
+              "$": [
+                "ts",
+                192,
+                1738006457349
+              ],
+              "$ts": 1738006457349
+            }
+          },
+          "expanded": false,
+          "items": [
+            {
+              "data": {
+                "fullPath": "/usr/local/bin/ignition/webserver/webapps/comtrade/storage/upload/cmt00000.cfg",
+                "isFile": true,
+                "timestamp": {
+                  "$": [
+                    "ts",
+                    192,
+                    1738006457349
+                  ],
+                  "$ts": 1738006457349
+                }
+              },
+              "expanded": false,
+              "items": [],
+              "label": "cmt00000.cfg"
+            },
+            {
+              "data": {
+                "fullPath": "/usr/local/bin/ignition/webserver/webapps/comtrade/storage/upload/cmt00000.dat",
+                "isFile": true,
+                "timestamp": {
+                  "$": [
+                    "ts",
+                    192,
+                    1738006457349
+                  ],
+                  "$ts": 1738006457349
+                }
+              },
+              "expanded": false,
+              "items": [],
+              "label": "cmt00000.dat"
+            },
+            {
+              "data": {
+                "fullPath": "/usr/local/bin/ignition/webserver/webapps/comtrade/storage/upload/test4.cfg",
+                "isFile": true,
+                "timestamp": {
+                  "$": [
+                    "ts",
+                    192,
+                    1738006457349
+                  ],
+                  "$ts": 1738006457349
+                }
+              },
+              "expanded": false,
+              "items": [],
+              "label": "test4.cfg"
+            },
+            {
+              "data": {
+                "fullPath": "/usr/local/bin/ignition/webserver/webapps/comtrade/storage/upload/test4.dat",
+                "isFile": true,
+                "timestamp": {
+                  "$": [
+                    "ts",
+                    192,
+                    1738006457349
+                  ],
+                  "$ts": 1738006457349
+                }
+              },
+              "expanded": false,
+              "items": [],
+              "label": "test4.dat"
+            }
+          ],
+          "label": "upload"
+        }
+      ],
+      "selectionData": [
+        {
+          "itemPath": "1/3/0",
+          "value": {
+            "fullPath": "/usr/local/bin/ignition/webserver/webapps/comtrade/storage/local/test_data4/test4.cfg",
+            "isFile": false,
+            "timestamp": {
+              "$": [
+                "ts",
+                0,
+                1737756276113
+              ],
+              "$ts": 1737744936353
+            }
+          }
+        }
+      ]
+    },
+    "ui": {
+      "showFileManagement": true,
+      "showFiles": true,
+      "showPhasor": false,
+      "showSettings": false
+    }
+  },
+  "params": {},
+  "propConfig": {
+    "custom.analysis": {
+      "persistent": true
+    },
+    "custom.analysis.title": {
+      "binding": {
+        "config": {
+          "path": "view.custom.rangeSelector"
+        },
+        "transforms": [
+          {
+            "code": "\treturn \u0027%s.%03d to %s.%03d\u0027 % (\n\t\t system.date.format(value.selectedRange.start,\u0027YYYY-MM-dd HH:mm:ss\u0027)\n\t\t,value.zeroedRange.min % 1 * 1000\n\t\t,system.date.format(value.selectedRange.end,\u0027YYYY-MM-dd HH:mm:ss\u0027)\n\t\t,value.zeroedRange.max % 1 * 1000\n\t)",
+            "type": "script"
+          }
+        ],
+        "type": "property"
+      }
+    },
+    "custom.analysisCalculate": {
+      "binding": {
+        "config": {
+          "struct": {
+            "instances": "{view.custom.options.channels.instances}",
+            "selectedRange": "{view.custom.rangeSelector.selectedRange}"
+          },
+          "waitOnAll": true
+        },
+        "transforms": [
+          {
+            "code": "\treturn system.date.now()",
+            "type": "script"
+          }
+        ],
+        "type": "expr-struct"
+      },
+      "onChange": {
+        "enabled": null,
+        "script": "\tfrom threading import Timer\n\t\n\tif self.custom.rangeSelector.selectedRange.start \u003d\u003d self.custom.rangeSelector.selectedRange.end:\n\t\t# no time range selected, hide chart\n\t\tself.custom.analysis.dataLoading \u003d True\n\t\tself.custom.analysis.placeholderText \u003d \"No time range selected\"\n\telse:\n\t\t# time range selected, disable xtrace and update data\n\t\tself.custom.analysis.xtrace \u003d False\n\t\t\n\t\tdef async():\n\t\t\t# update range\n\t\t\tself.custom.rangeSelector.zeroedRange \u003d{\n\t\t\t\t\u0027min\u0027: (system.date.toMillis(self.custom.rangeSelector.selectedRange.start) - self.custom.parsedData.startTimeOffset) / 1000.0,\n\t\t\t\t\u0027max\u0027: (system.date.toMillis(self.custom.rangeSelector.selectedRange.end) - self.custom.parsedData.startTimeOffset) / 1000.0,\n\t\t\t\t\u0027useStrict\u0027: True\n\t\t\t}\n\t\t\t\n\t\t\t# configure series based on selected channels\n\t\t\tseries \u003d []\n\t\t\tcolorIndex \u003d 0\n\t\t\tfor i in self.custom.options.channels.instances:\n\t\t\t\tif i[\u0027value\u0027]:\n\t\t\t\t\ttemplate \u003d system.util.jsonDecode(system.util.jsonEncode(self.custom.analysis.seriesTemplate))\n\t\t\t\t\ttemplate[\u0027visible\u0027] \u003d True\n\t\t\t\t\ttemplate[\u0027data\u0027][\u0027y\u0027] \u003d i[\u0027channel\u0027]\n\t\t\t\t\ttemplate[\u0027name\u0027] \u003d i[\u0027text\u0027]\n\t\t\t\t\ttemplate[\u0027label\u0027][\u0027text\u0027] \u003d i[\u0027text\u0027]\n\t\t\t\t\ttemplate[\u0027line\u0027][\u0027appearance\u0027][\u0027stroke\u0027][\u0027color\u0027] \u003d self.custom.colors[colorIndex%len(self.custom.colors)]\n\t\t\t\t\tseries.append(template)\n\t\t\t\t\tcolorIndex+\u003d1\n\t\t\t\n\t\t\t# update data based on selected channels and time\n\t\t\t# filter columns\n\t\t\tdataset \u003d system.util.getGlobals()[\u0027exchange\u0027][\u0027comtrade\u0027][self.session.props.id][self.page.props.pageId][\u0027highRes\u0027]\n\t\t\tfilteredColumns \u003d system.dataset.filterColumns(\n\t\t\t\tdataset\n\t\t\t\t, [\u0027zeroedSeconds\u0027] + [i[\u0027channel\u0027] for i in self.custom.options.channels.instances if i[\u0027value\u0027]]\n\t\t\t)\n\t\t\t\n\t\t\t# filter rows\n\t\t\tdeleteRows \u003d [i for i in xrange(dataset.getRowCount()) \n\t\t\t\tif dataset.getValueAt(i,\u0027time\u0027) \u003e self.custom.rangeSelector.selectedRange.end\n\t\t\t\tor dataset.getValueAt(i,\u0027time\u0027) \u003c self.custom.rangeSelector.selectedRange.start\n\t\t\t]\n\t\t\tfilteredDataset \u003d system.dataset.deleteRows(filteredColumns, deleteRows)\n\n\t\t\t# send one object\t\t\t\n\t\t\tself.custom.analysis \u003d {\n\t\t\t\t\"dataLoading\": False,\n\t\t\t\t\"xtrace\": False,\n\t\t\t\t\"dataset\": filteredDataset,\n\t\t\t\t\"placeholderText\": \"No time range selected\",\n\t\t\t\t\"series\": series,\n\t\t\t\t\"seriesTemplate\": self.custom.analysis.seriesTemplate,\n\t\t\t\t\"title\": self.custom.analysis.title\n\t\t\t}\n\t\t\t\n\t\tTimer(0.02, async).start()"
+      },
+      "persistent": true
+    },
+    "custom.colors": {
+      "persistent": true
+    },
+    "custom.options": {
+      "persistent": true
+    },
+    "custom.options.channels.instances": {
+      "binding": {
+        "config": {
+          "path": "view.custom.parsedData"
+        },
+        "transforms": [
+          {
+            "code": "\toutput \u003d []\n\tisSelected \u003d True\n\tfor chType in [\u0027A\u0027, \u0027D\u0027]:\n\t\tfor i, ch in enumerate(value.data[chType]):\n\t\t\ttemplate \u003d system.util.jsonDecode(system.util.jsonEncode(self.custom.options.channels.instanceTemplate))\n\t\t\ttemplate[\u0027value\u0027] \u003d isSelected\n\t\t\tisSelected \u003d False\n\t\t\ttemplate[\u0027channel\u0027] \u003d \u0027%s%s\u0027 % (chType, i+1)\n\t\t\ttemplate[\u0027text\u0027] \u003d \u0027%s - %s\u0027 % (template[\u0027channel\u0027], ch[\u0027ch_id\u0027])\n\t\t\ttemplate[\u0027tooltip\u0027] \u003d str(ch).replace(\u0027,\u0027,\u0027,\\n\u0027)\n\t\t\ttemplate[\u0027generated\u0027] \u003d system.date.now()\n\t\t\toutput.append(template)\n\treturn output",
+            "type": "script"
+          }
+        ],
+        "type": "property"
+      }
+    },
+    "custom.options.info": {
+      "binding": {
+        "config": {
+          "path": "view.custom.parsedData.data"
+        },
+        "transforms": [
+          {
+            "code": "\treturn system.dataset.toDataSet(\n\t\t[\u0027field\u0027,\u0027value\u0027], \n\t\t[[v,str(value.get(v, None))] for v in sorted(value.keys()) if v not in [\u0027A\u0027, \u0027D\u0027]]\n\t)",
+            "type": "script"
+          }
+        ],
+        "type": "property"
+      }
+    },
+    "custom.parsedData": {
+      "persistent": true
+    },
+    "custom.parsedData.timestamp": {
+      "onChange": {
+        "enabled": null,
+        "script": "\tif currentValue.value:\n\t\ttry:\n\t\t\tstartTime \u003d system.util.getGlobals()[\u0027exchange\u0027][\u0027comtrade\u0027][self.session.props.id][self.page.props.pageId][\u0027lowRes\u0027].getValueAt(0,0)\n\t\t\tself.custom.rangeSelector.selectedRange \u003d {\n\t\t\t\t\"end\": startTime,\n\t\t\t\t\"start\": startTime\n\t\t\t}\n\t\texcept:\n\t\t\tpass"
+      }
+    },
+    "custom.rangeSelector": {
+      "persistent": true
+    },
+    "custom.rangeSelector.data": {
+      "binding": {
+        "config": {
+          "path": "view.custom.options.channels.instances"
+        },
+        "transforms": [
+          {
+            "code": "\tsystem.perspective.print(\u0027channels changed, recalculating range selector data\u0027)\n\treturn system.dataset.filterColumns(\n\t\tsystem.util.getGlobals()[\u0027exchange\u0027][\u0027comtrade\u0027][self.session.props.id][self.page.props.pageId][\u0027lowRes\u0027]\n\t\t, [\u0027time\u0027] + [i[\u0027channel\u0027] for i in value if i[\u0027value\u0027]])",
+            "type": "script"
+          }
+        ],
+        "type": "property"
+      }
+    },
+    "custom.rangeSelector.dataLoading": {
+      "binding": {
+        "config": {
+          "expression": "isNull({view.custom.rangeSelector.data})"
+        },
+        "type": "expr"
+      }
+    },
+    "custom.tree": {
+      "persistent": true
+    },
+    "custom.tree.items": {
+      "onChange": {
+        "enabled": null,
+        "script": "\ttry:\n\t\tself.custom.tree.selectionData[0].value.isFile \u003d False\n\texcept:\n\t\tpass"
+      }
+    },
+    "custom.ui": {
+      "persistent": true
+    }
+  },
+  "props": {
+    "defaultSize": {
+      "height": 1121,
+      "width": 1370
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "children": [
+          {
+            "events": {
+              "component": {
+                "onActionPerformed": {
+                  "config": {
+                    "script": "\tself.view.custom.ui.showSettings \u003d not self.view.custom.ui.showSettings"
+                  },
+                  "scope": "G",
+                  "type": "script"
+                }
+              }
+            },
+            "meta": {
+              "name": "ShowSettings"
+            },
+            "position": {
+              "basis": "32px",
+              "shrink": 0
+            },
+            "propConfig": {
+              "props.image.icon.color": {
+                "binding": {
+                  "config": {
+                    "path": "view.custom.ui.showSettings"
+                  },
+                  "transforms": [
+                    {
+                      "fallback": null,
+                      "inputType": "scalar",
+                      "mappings": [
+                        {
+                          "input": true,
+                          "output": "--qual-2"
+                        }
+                      ],
+                      "outputType": "scalar",
+                      "type": "map"
+                    }
+                  ],
+                  "type": "property"
+                }
+              }
+            },
+            "props": {
+              "image": {
+                "icon": {
+                  "path": "material/settings"
+                },
+                "position": "center"
+              },
+              "primary": false,
+              "style": {
+                "marginBottom": 8
+              },
+              "text": ""
+            },
+            "type": "ia.input.button"
+          },
+          {
+            "events": {
+              "component": {
+                "onActionPerformed": {
+                  "config": {
+                    "script": "\tself.view.custom.ui.showFiles \u003d not self.view.custom.ui.showFiles"
+                  },
+                  "scope": "G",
+                  "type": "script"
+                }
+              }
+            },
+            "meta": {
+              "name": "ShowFiles"
+            },
+            "position": {
+              "basis": "32px",
+              "shrink": 0
+            },
+            "propConfig": {
+              "props.image.icon.color": {
+                "binding": {
+                  "config": {
+                    "path": "view.custom.ui.showFiles"
+                  },
+                  "transforms": [
+                    {
+                      "fallback": null,
+                      "inputType": "scalar",
+                      "mappings": [
+                        {
+                          "input": true,
+                          "output": "--qual-2"
+                        }
+                      ],
+                      "outputType": "scalar",
+                      "type": "map"
+                    }
+                  ],
+                  "type": "property"
+                }
+              }
+            },
+            "props": {
+              "image": {
+                "icon": {
+                  "path": "material/insert_drive_file"
+                },
+                "position": "center"
+              },
+              "primary": false,
+              "text": ""
+            },
+            "type": "ia.input.button"
+          }
+        ],
+        "meta": {
+          "name": "Buttons"
+        },
+        "position": {
+          "basis": "32px",
+          "shrink": 0
+        },
+        "props": {
+          "direction": "column",
+          "style": {
+            "paddingTop": 8
+          }
+        },
+        "type": "ia.container.flex"
+      },
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "meta": {
+                  "name": "Label"
+                },
+                "position": {
+                  "basis": "32px",
+                  "shrink": 0
+                },
+                "props": {
+                  "alignVertical": "top",
+                  "text": "Settings"
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "meta": {
+                  "name": "Dropdown"
+                },
+                "position": {
+                  "basis": "36px"
+                },
+                "propConfig": {
+                  "props.value": {
+                    "binding": {
+                      "config": {
+                        "bidirectional": true,
+                        "path": "view.custom.options.dateFormat"
+                      },
+                      "type": "property"
+                    }
+                  }
+                },
+                "props": {
+                  "options": [
+                    {
+                      "label": "Comtrade Date: dd/MM/yyyy",
+                      "value": "dd/MM/yyyy"
+                    },
+                    {
+                      "label": "Comtrade Date: MM/dd/yyyy",
+                      "value": "MM/dd/yyyy"
+                    }
+                  ],
+                  "placeholder": {
+                    "text": "Date Format"
+                  },
+                  "style": {
+                    "marginBottom": "4px"
+                  }
+                },
+                "type": "ia.input.dropdown"
+              },
+              {
+                "events": {
+                  "component": {
+                    "onActionPerformed": {
+                      "config": {
+                        "script": "\tself.view.custom.tree.items \u003d exchange.comtrade.utils.localTree()"
+                      },
+                      "scope": "G",
+                      "type": "script"
+                    }
+                  }
+                },
+                "meta": {
+                  "name": "Refresh"
+                },
+                "position": {
+                  "basis": "32px",
+                  "shrink": 0
+                },
+                "props": {
+                  "image": {
+                    "icon": {
+                      "path": "material/refresh"
+                    }
+                  },
+                  "primary": false,
+                  "style": {
+                    "marginBottom": "4px"
+                  },
+                  "text": "Refresh Files"
+                },
+                "type": "ia.input.button"
+              },
+              {
+                "events": {
+                  "component": {
+                    "onActionPerformed": {
+                      "config": {
+                        "script": "\tself.view.custom.ui.showFileManagement \u003d not self.view.custom.ui.showFileManagement"
+                      },
+                      "scope": "G",
+                      "type": "script"
+                    }
+                  }
+                },
+                "meta": {
+                  "name": "FileManagement"
+                },
+                "position": {
+                  "basis": "32px",
+                  "shrink": 0
+                },
+                "props": {
+                  "image": {
+                    "icon": {
+                      "path": "material/remove_red_eye"
+                    }
+                  },
+                  "primary": false,
+                  "style": {
+                    "marginBottom": "4px"
+                  },
+                  "text": "Show File Management"
+                },
+                "type": "ia.input.button"
+              },
+              {
+                "events": {
+                  "component": {
+                    "onActionPerformed": {
+                      "config": {
+                        "script": "\tself.view.custom.ui.showPhasor \u003d not self.view.custom.ui.showPhasor"
+                      },
+                      "scope": "G",
+                      "type": "script"
+                    }
+                  }
+                },
+                "meta": {
+                  "name": "TogglePhasor"
+                },
+                "position": {
+                  "basis": "32px",
+                  "shrink": 0
+                },
+                "props": {
+                  "image": {
+                    "icon": {
+                      "path": "material/text_rotation_angleup"
+                    }
+                  },
+                  "primary": false,
+                  "style": {
+                    "marginBottom": "4px"
+                  },
+                  "text": "Toggle Phasor"
+                },
+                "type": "ia.input.button"
+              },
+              {
+                "events": {
+                  "component": {
+                    "onActionPerformed": {
+                      "config": {
+                        "script": "\ttry:\n\t\tdel system.util.getGlobals()[\u0027exchange\u0027][\u0027comtrade\u0027]\n\texcept:\n\t\tpass\n\tself.view.getChild(\"root\").resetData()"
+                      },
+                      "scope": "G",
+                      "type": "script"
+                    }
+                  }
+                },
+                "meta": {
+                  "name": "DeleteGlobals"
+                },
+                "position": {
+                  "basis": "32px",
+                  "shrink": 0
+                },
+                "props": {
+                  "image": {
+                    "icon": {
+                      "path": "material/delete"
+                    }
+                  },
+                  "primary": false,
+                  "style": {
+                    "marginBottom": "4px"
+                  },
+                  "text": "Clear File Cache"
+                },
+                "type": "ia.input.button"
+              }
+            ],
+            "meta": {
+              "name": "Settings"
+            },
+            "position": {
+              "grow": 1,
+              "shrink": 0
+            },
+            "propConfig": {
+              "position.display": {
+                "binding": {
+                  "config": {
+                    "path": "view.custom.ui.showSettings"
+                  },
+                  "type": "property"
+                }
+              }
+            },
+            "props": {
+              "direction": "column",
+              "style": {
+                "backgroundColor": "var(--neutral-20)",
+                "classes": "exchange/comtrade/section"
+              }
+            },
+            "type": "ia.container.flex"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "meta": {
+                      "name": "Label"
+                    },
+                    "position": {
+                      "basis": "50px",
+                      "grow": 1
+                    },
+                    "props": {
+                      "alignVertical": "top",
+                      "text": "Files"
+                    },
+                    "type": "ia.display.label"
+                  }
+                ],
+                "meta": {
+                  "name": "TopButtons"
+                },
+                "position": {
+                  "basis": "32px",
+                  "shrink": 0
+                },
+                "props": {
+                  "justify": "space-between"
+                },
+                "type": "ia.container.flex"
+              },
+              {
+                "meta": {
+                  "name": "Tree"
+                },
+                "position": {
+                  "basis": "200px",
+                  "grow": 1
+                },
+                "propConfig": {
+                  "props.items": {
+                    "binding": {
+                      "config": {
+                        "path": "view.custom.tree.items"
+                      },
+                      "type": "property"
+                    }
+                  },
+                  "props.selectionData": {
+                    "binding": {
+                      "config": {
+                        "bidirectional": true,
+                        "path": "view.custom.tree.selectionData"
+                      },
+                      "type": "property"
+                    }
+                  }
+                },
+                "props": {
+                  "appearance": {
+                    "defaultNodeIcons": {
+                      "collapsed": {
+                        "path": "material/folder"
+                      },
+                      "empty": {
+                        "path": "material/stop"
+                      },
+                      "expanded": {
+                        "path": "material/folder_open"
+                      }
+                    },
+                    "expandIcons": {
+                      "collapsed": {
+                        "path": "material/arrow_right"
+                      },
+                      "expanded": {
+                        "path": "material/arrow_drop_down"
+                      }
+                    }
+                  },
+                  "selection": [
+                    "1/3/0"
+                  ],
+                  "style": {
+                    "overflow": "auto"
+                  }
+                },
+                "type": "ia.display.tree"
+              },
+              {
+                "children": [
+                  {
+                    "events": {
+                      "component": {
+                        "onActionPerformed": {
+                          "config": {
+                            "script": "\tself.view.custom.rangeSelector.data \u003d None\n\tself.view.custom.rangeSelector.placeholderText \u003d \"Parsing file, please wait\"\n\tdef async():\n\t\tnow \u003d system.date.now()\n\t\tself.view.custom.analysis.dataset \u003d None\n\t\tself.view.custom.analysis.dataLoading \u003d True\n\t\tself.view.custom.rangeSelector.selectedRange \u003d {\n\t\t\t\"end\": now,\n\t\t\t\"start\": now\n\t\t}\n\t\tself.view.custom.parsedData \u003d exchange.comtrade.utils.parse(\n\t\t\tself.view.custom.tree.selectionData[0].value.fullPath\n\t\t\t,self.session.props.id\n\t\t\t,self.page.props.pageId\n\t\t\t,dateFormat \u003d self.view.custom.options.dateFormat\n\t\t)\n\tsystem.util.invokeAsynchronous(async)"
+                          },
+                          "scope": "G",
+                          "type": "script"
+                        }
+                      }
+                    },
+                    "meta": {
+                      "name": "ViewFile"
+                    },
+                    "position": {
+                      "basis": "32px",
+                      "shrink": 0
+                    },
+                    "propConfig": {
+                      "props.enabled": {
+                        "binding": {
+                          "config": {
+                            "path": "view.custom.tree.selectionData[0].value.isFile"
+                          },
+                          "type": "property"
+                        }
+                      }
+                    },
+                    "props": {
+                      "image": {
+                        "icon": {
+                          "path": "material/remove_red_eye"
+                        }
+                      },
+                      "text": "View Selected File"
+                    },
+                    "type": "ia.input.button"
+                  },
+                  {
+                    "children": [
+                      {
+                        "events": {
+                          "component": {
+                            "onFileReceived": {
+                              "config": {
+                                "script": "\tpath \u003d exchange.comtrade.utils.folderUpload()\n\tif not system.file.fileExists(path):\n\t\timport os\n\t\tos.makedirs(path)\n\tfilename \u003d path + event.file.name\n\tevent.file.copyTo(filename)\n\tself.view.custom.tree.items \u003d exchange.comtrade.utils.localTree()"
+                              },
+                              "scope": "G",
+                              "type": "script"
+                            }
+                          }
+                        },
+                        "meta": {
+                          "name": "FileUpload"
+                        },
+                        "position": {
+                          "grow": 1
+                        },
+                        "props": {
+                          "fileUploadIcon": {
+                            "style": {
+                              "classes": ""
+                            }
+                          },
+                          "maxUploads": 10
+                        },
+                        "type": "ia.input.fileupload"
+                      }
+                    ],
+                    "meta": {
+                      "name": "Upload"
+                    },
+                    "position": {
+                      "basis": "96px",
+                      "shrink": 0
+                    },
+                    "propConfig": {
+                      "position.display": {
+                        "binding": {
+                          "config": {
+                            "path": "view.custom.ui.showFileManagement"
+                          },
+                          "type": "property"
+                        }
+                      }
+                    },
+                    "props": {
+                      "direction": "column",
+                      "style": {
+                        "marginBottom": "16px",
+                        "marginTop": "16px"
+                      }
+                    },
+                    "type": "ia.container.flex"
+                  },
+                  {
+                    "events": {
+                      "component": {
+                        "onActionPerformed": {
+                          "config": {
+                            "script": "\t# get all .cfg .dat .inf files and compress them into a zip\n\timport os\n\timport zipfile\n\t\n\tfilePath \u003d self.view.custom.tree.selectionData[0].value.fullPath\n\n\t# determine file properties\n\tfileNoExt, fileExt \u003d os.path.splitext(filePath)\n\tif fileExt \u003d\u003d \u0027\u0027:\n\t\t# exit script if folder is selected\n\t\treturn\n\tfileDir, fileName \u003d os.path.split(filePath)\n\tfileNameNoExt \u003d fileName.replace(fileExt, \u0027\u0027)\n\t\n\t# compiling a list of files to zip\n\tfilesToZip \u003d [filePath]\n\tfileNames \u003d [fileName]\n\tfor ft in [\u0027.cfg\u0027, \u0027.dat\u0027, \u0027.inf\u0027]:\n\t\tnewPath \u003d \u0027%s%s\u0027%(fileNoExt,ft)\n\t\tif system.file.fileExists(newPath) and newPath not in filesToZip:\n\t\t\tfilesToZip.append(newPath)\n\t\t\tfileNames.append(\u0027%s%s\u0027%(fileNameNoExt, ft))\n\t\n\t# create zip file\n\ttempZip \u003d system.file.getTempFile(\u0027zip\u0027)\n\twith zipfile.ZipFile(tempZip, \u0027w\u0027) as myzip:\n\t    for fl, nm in zip(filesToZip, fileNames):\n\t        myzip.write(fl,nm)\n\n\t# download file\n\tfilename \u003d \u0027%s.zip\u0027%(fileNameNoExt)\n\tdata \u003d system.file.readFileAsBytes(tempZip)\n\tsystem.perspective.download(filename, data)\n\t\n\t# delete temp file\n\tos.remove(tempZip)"
+                          },
+                          "scope": "G",
+                          "type": "script"
+                        }
+                      }
+                    },
+                    "meta": {
+                      "name": "DownloadFiles"
+                    },
+                    "position": {
+                      "basis": "32px",
+                      "shrink": 0
+                    },
+                    "propConfig": {
+                      "position.display": {
+                        "binding": {
+                          "config": {
+                            "path": "view.custom.ui.showFileManagement"
+                          },
+                          "type": "property"
+                        }
+                      },
+                      "props.enabled": {
+                        "binding": {
+                          "config": {
+                            "path": "view.custom.tree.selectionData[0].value.isFile"
+                          },
+                          "type": "property"
+                        }
+                      }
+                    },
+                    "props": {
+                      "image": {
+                        "icon": {
+                          "path": "material/cloud_download"
+                        }
+                      },
+                      "primary": false,
+                      "style": {
+                        "marginBottom": "4px"
+                      },
+                      "text": "Download Files"
+                    },
+                    "type": "ia.input.button"
+                  },
+                  {
+                    "events": {
+                      "component": {
+                        "onActionPerformed": {
+                          "config": {
+                            "script": "\tsystem.util.execute([exchange.comtrade.utils.sftpScript()])\n\tfrom threading import Timer\n\tdef doLater():\n\t\tself.view.custom.tree.items \u003d exchange.comtrade.utils.localTree()\n\tTimer(0.5, doLater).start()"
+                          },
+                          "scope": "G",
+                          "type": "script"
+                        }
+                      }
+                    },
+                    "meta": {
+                      "name": "Sftp"
+                    },
+                    "position": {
+                      "basis": "32px",
+                      "shrink": 0
+                    },
+                    "propConfig": {
+                      "position.display": {
+                        "binding": {
+                          "config": {
+                            "path": "view.custom.ui.showFileManagement"
+                          },
+                          "type": "property"
+                        }
+                      }
+                    },
+                    "props": {
+                      "image": {
+                        "icon": {
+                          "path": "material/sync_alt"
+                        }
+                      },
+                      "primary": false,
+                      "style": {
+                        "marginBottom": "4px"
+                      },
+                      "text": "SFTP Transfer"
+                    },
+                    "type": "ia.input.button"
+                  },
+                  {
+                    "events": {
+                      "component": {
+                        "onActionPerformed": {
+                          "config": {
+                            "script": "\texchange.comtrade.ftp.main()\n\tself.view.custom.tree.items \u003d exchange.comtrade.utils.localTree()"
+                          },
+                          "scope": "G",
+                          "type": "script"
+                        }
+                      }
+                    },
+                    "meta": {
+                      "name": "Ftp"
+                    },
+                    "position": {
+                      "basis": "32px",
+                      "shrink": 0
+                    },
+                    "propConfig": {
+                      "position.display": {
+                        "binding": {
+                          "config": {
+                            "path": "view.custom.ui.showFileManagement"
+                          },
+                          "type": "property"
+                        }
+                      }
+                    },
+                    "props": {
+                      "image": {
+                        "icon": {
+                          "path": "material/sync_alt"
+                        }
+                      },
+                      "primary": false,
+                      "text": "FTP Transfer"
+                    },
+                    "type": "ia.input.button"
+                  }
+                ],
+                "meta": {
+                  "name": "BottomButtons"
+                },
+                "position": {
+                  "basis": "Auto",
+                  "shrink": 0
+                },
+                "props": {
+                  "direction": "column",
+                  "justify": "space-between",
+                  "style": {
+                    "padding": "4px"
+                  }
+                },
+                "type": "ia.container.flex"
+              }
+            ],
+            "meta": {
+              "name": "Files"
+            },
+            "position": {
+              "basis": "2000px",
+              "grow": 1
+            },
+            "propConfig": {
+              "position.display": {
+                "binding": {
+                  "config": {
+                    "path": "view.custom.ui.showFiles"
+                  },
+                  "type": "property"
+                }
+              }
+            },
+            "props": {
+              "direction": "column",
+              "style": {
+                "backgroundColor": "var(--neutral-20)",
+                "classes": "exchange/comtrade/section"
+              }
+            },
+            "type": "ia.container.flex"
+          }
+        ],
+        "meta": {
+          "name": "Dock"
+        },
+        "position": {
+          "basis": "300px",
+          "shrink": 0
+        },
+        "propConfig": {
+          "position.display": {
+            "binding": {
+              "config": {
+                "expression": "{view.custom.ui.showFiles} || {view.custom.ui.showSettings}"
+              },
+              "type": "expr"
+            }
+          }
+        },
+        "props": {
+          "direction": "column"
+        },
+        "type": "ia.container.flex"
+      },
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "meta": {
+                  "name": "Label"
+                },
+                "position": {
+                  "basis": "50px",
+                  "grow": 1
+                },
+                "props": {
+                  "alignVertical": "top",
+                  "text": "Channels"
+                },
+                "type": "ia.display.label"
+              }
+            ],
+            "meta": {
+              "name": "Header"
+            },
+            "position": {
+              "basis": "32px",
+              "shrink": 0
+            },
+            "type": "ia.container.flex"
+          },
+          {
+            "children": [
+              {
+                "meta": {
+                  "name": "FlexRepeater"
+                },
+                "position": {
+                  "basis": "320px",
+                  "grow": 1
+                },
+                "propConfig": {
+                  "props.instances": {
+                    "binding": {
+                      "config": {
+                        "bidirectional": true,
+                        "path": "view.custom.options.channels.instances"
+                      },
+                      "type": "property"
+                    }
+                  }
+                },
+                "props": {
+                  "direction": "column",
+                  "path": "Exchange/Comtrade/Checkbox"
+                },
+                "type": "ia.display.flex-repeater"
+              },
+              {
+                "meta": {
+                  "name": "Label"
+                },
+                "position": {
+                  "basis": "32px",
+                  "shrink": 0
+                },
+                "props": {
+                  "style": {
+                    "marginTop": "16px"
+                  },
+                  "text": "File Details"
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "meta": {
+                  "name": "Table"
+                },
+                "position": {
+                  "basis": "240px",
+                  "shrink": 0
+                },
+                "propConfig": {
+                  "props.data": {
+                    "binding": {
+                      "config": {
+                        "path": "view.custom.options.info"
+                      },
+                      "type": "property"
+                    }
+                  }
+                },
+                "props": {
+                  "columns": [
+                    {
+                      "align": "center",
+                      "boolean": "checkbox",
+                      "dateFormat": "MM/DD/YYYY",
+                      "editable": false,
+                      "field": "field",
+                      "filter": {
+                        "boolean": {
+                          "condition": ""
+                        },
+                        "date": {
+                          "condition": "",
+                          "value": ""
+                        },
+                        "enabled": false,
+                        "number": {
+                          "condition": "",
+                          "value": ""
+                        },
+                        "string": {
+                          "condition": "",
+                          "value": ""
+                        },
+                        "visible": "on-hover"
+                      },
+                      "footer": {
+                        "align": "center",
+                        "justify": "left",
+                        "style": {
+                          "classes": ""
+                        },
+                        "title": ""
+                      },
+                      "header": {
+                        "align": "center",
+                        "justify": "left",
+                        "style": {
+                          "classes": ""
+                        },
+                        "title": "Comtrade"
+                      },
+                      "justify": "auto",
+                      "nullFormat": {
+                        "includeNullStrings": false,
+                        "nullFormatValue": "",
+                        "strict": false
+                      },
+                      "number": "value",
+                      "numberFormat": "0,0.##",
+                      "progressBar": {
+                        "bar": {
+                          "color": "",
+                          "style": {
+                            "classes": ""
+                          }
+                        },
+                        "max": 100,
+                        "min": 0,
+                        "track": {
+                          "color": "",
+                          "style": {
+                            "classes": ""
+                          }
+                        },
+                        "value": {
+                          "enabled": true,
+                          "format": "0,0.##",
+                          "justify": "center",
+                          "style": {
+                            "classes": ""
+                          }
+                        }
+                      },
+                      "render": "auto",
+                      "resizable": false,
+                      "sort": "none",
+                      "sortable": false,
+                      "strictWidth": true,
+                      "style": {
+                        "classes": ""
+                      },
+                      "toggleSwitch": {
+                        "color": {
+                          "selected": "",
+                          "unselected": ""
+                        }
+                      },
+                      "viewParams": {},
+                      "viewPath": "",
+                      "visible": true,
+                      "width": 80
+                    },
+                    {
+                      "align": "center",
+                      "boolean": "checkbox",
+                      "dateFormat": "MM/DD/YYYY",
+                      "editable": false,
+                      "field": "value",
+                      "filter": {
+                        "boolean": {
+                          "condition": ""
+                        },
+                        "date": {
+                          "condition": "",
+                          "value": ""
+                        },
+                        "enabled": false,
+                        "number": {
+                          "condition": "",
+                          "value": ""
+                        },
+                        "string": {
+                          "condition": "",
+                          "value": ""
+                        },
+                        "visible": "on-hover"
+                      },
+                      "footer": {
+                        "align": "center",
+                        "justify": "left",
+                        "style": {
+                          "classes": ""
+                        },
+                        "title": ""
+                      },
+                      "header": {
+                        "align": "center",
+                        "justify": "left",
+                        "style": {
+                          "classes": ""
+                        },
+                        "title": " "
+                      },
+                      "justify": "auto",
+                      "nullFormat": {
+                        "includeNullStrings": false,
+                        "nullFormatValue": "",
+                        "strict": false
+                      },
+                      "number": "value",
+                      "numberFormat": "0,0.##",
+                      "progressBar": {
+                        "bar": {
+                          "color": "",
+                          "style": {
+                            "classes": ""
+                          }
+                        },
+                        "max": 100,
+                        "min": 0,
+                        "track": {
+                          "color": "",
+                          "style": {
+                            "classes": ""
+                          }
+                        },
+                        "value": {
+                          "enabled": true,
+                          "format": "0,0.##",
+                          "justify": "center",
+                          "style": {
+                            "classes": ""
+                          }
+                        }
+                      },
+                      "render": "auto",
+                      "resizable": false,
+                      "sort": "none",
+                      "sortable": false,
+                      "strictWidth": false,
+                      "style": {
+                        "classes": ""
+                      },
+                      "toggleSwitch": {
+                        "color": {
+                          "selected": "",
+                          "unselected": ""
+                        }
+                      },
+                      "viewParams": {},
+                      "viewPath": "",
+                      "visible": true,
+                      "width": 50
+                    }
+                  ],
+                  "enableHeader": false,
+                  "pager": {
+                    "bottom": false
+                  },
+                  "rows": {
+                    "height": "10px",
+                    "style": {
+                      "fontSize": "10px"
+                    }
+                  },
+                  "style": {
+                    "borderStyle": "none"
+                  }
+                },
+                "type": "ia.display.table"
+              }
+            ],
+            "meta": {
+              "name": "Channels"
+            },
+            "position": {
+              "grow": 1
+            },
+            "propConfig": {
+              "position.display": {
+                "binding": {
+                  "config": {
+                    "expression": "!{view.custom.rangeSelector.dataLoading}"
+                  },
+                  "type": "expr"
+                }
+              }
+            },
+            "props": {
+              "direction": "column"
+            },
+            "type": "ia.container.flex"
+          },
+          {
+            "meta": {
+              "name": "Placeholder"
+            },
+            "position": {
+              "basis": "32px",
+              "grow": 1
+            },
+            "propConfig": {
+              "position.display": {
+                "binding": {
+                  "config": {
+                    "path": "view.custom.rangeSelector.dataLoading"
+                  },
+                  "type": "property"
+                }
+              },
+              "props.text": {
+                "binding": {
+                  "config": {
+                    "path": "view.custom.rangeSelector.placeholderText"
+                  },
+                  "type": "property"
+                }
+              }
+            },
+            "props": {
+              "textStyle": {
+                "textAlign": "center"
+              }
+            },
+            "type": "ia.display.label"
+          }
+        ],
+        "meta": {
+          "name": "FileInfo"
+        },
+        "position": {
+          "basis": "300px",
+          "shrink": 0
+        },
+        "props": {
+          "direction": "column",
+          "style": {
+            "classes": "exchange/comtrade/section"
+          }
+        },
+        "type": "ia.container.flex"
+      },
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "meta": {
+                  "name": "Label"
+                },
+                "position": {
+                  "basis": "32px",
+                  "shrink": 0
+                },
+                "propConfig": {
+                  "props.text": {
+                    "binding": {
+                      "config": {
+                        "expression": "\u0027Time Range Selector, Average Per Millisecond. File: \u0027 + {view.custom.parsedData.filename}"
+                      },
+                      "type": "expr"
+                    }
+                  }
+                },
+                "props": {
+                  "alignVertical": "top"
+                },
+                "type": "ia.display.label"
+              },
+              {
+                "meta": {
+                  "domId": "chartRangeSelectorRemoveFill",
+                  "name": "ChartRangeSelector"
+                },
+                "position": {
+                  "grow": 1
+                },
+                "propConfig": {
+                  "position.display": {
+                    "binding": {
+                      "config": {
+                        "expression": "!{view.custom.rangeSelector.dataLoading}"
+                      },
+                      "type": "expr"
+                    }
+                  },
+                  "props.areaStyles.colors": {
+                    "binding": {
+                      "config": {
+                        "path": "view.custom.colors"
+                      },
+                      "type": "property"
+                    }
+                  },
+                  "props.data": {
+                    "binding": {
+                      "config": {
+                        "path": "view.custom.rangeSelector.data"
+                      },
+                      "type": "property"
+                    }
+                  },
+                  "props.selectedRange": {
+                    "binding": {
+                      "config": {
+                        "bidirectional": true,
+                        "path": "view.custom.rangeSelector.selectedRange"
+                      },
+                      "type": "property"
+                    }
+                  }
+                },
+                "props": {
+                  "areaStyles": {
+                    "colorScheme": "PRGn"
+                  },
+                  "brushRange": {
+                    "dateFormat": "YYYY-M-D",
+                    "timeFormat": "HH:mm:ss"
+                  }
+                },
+                "type": "ia.chart.chartrangeselector"
+              },
+              {
+                "meta": {
+                  "name": "Placeholder"
+                },
+                "position": {
+                  "basis": "32px",
+                  "grow": 1
+                },
+                "propConfig": {
+                  "position.display": {
+                    "binding": {
+                      "config": {
+                        "path": "view.custom.rangeSelector.dataLoading"
+                      },
+                      "type": "property"
+                    }
+                  },
+                  "props.text": {
+                    "binding": {
+                      "config": {
+                        "path": "view.custom.rangeSelector.placeholderText"
+                      },
+                      "type": "property"
+                    }
+                  }
+                },
+                "props": {
+                  "textStyle": {
+                    "textAlign": "center"
+                  }
+                },
+                "type": "ia.display.label"
+              }
+            ],
+            "meta": {
+              "name": "RangeSelector"
+            },
+            "position": {
+              "basis": "400px",
+              "grow": 1
+            },
+            "props": {
+              "direction": "column",
+              "style": {
+                "classes": "exchange/comtrade/section"
+              }
+            },
+            "type": "ia.container.flex"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "meta": {
+                          "name": "Label"
+                        },
+                        "position": {
+                          "grow": 1
+                        },
+                        "props": {
+                          "alignVertical": "top",
+                          "text": "Detailed Analysis"
+                        },
+                        "type": "ia.display.label"
+                      },
+                      {
+                        "events": {
+                          "component": {
+                            "onActionPerformed": {
+                              "config": {
+                                "script": "\tfor s in self.view.custom.analysis.series:\n\t\ts[\u0027line\u0027][\u0027appearance\u0027][\u0027bullets\u0027][0][\u0027enabled\u0027] \u003d self.props.selected\n\t\ts[\u0027line\u0027][\u0027appearance\u0027][\u0027bullets\u0027][0][\u0027tooltip\u0027][\u0027enabled\u0027] \u003d self.props.selected"
+                              },
+                              "scope": "G",
+                              "type": "script"
+                            }
+                          }
+                        },
+                        "meta": {
+                          "name": "xtrace"
+                        },
+                        "position": {
+                          "basis": "56px",
+                          "grow": 1
+                        },
+                        "propConfig": {
+                          "props.selected": {
+                            "binding": {
+                              "config": {
+                                "bidirectional": true,
+                                "path": "view.custom.analysis.xtrace"
+                              },
+                              "type": "property"
+                            }
+                          }
+                        },
+                        "props": {
+                          "text": "X-Trace",
+                          "textPosition": "left"
+                        },
+                        "type": "ia.input.checkbox"
+                      }
+                    ],
+                    "meta": {
+                      "name": "FlexContainer"
+                    },
+                    "position": {
+                      "basis": "32px",
+                      "shrink": 0
+                    },
+                    "props": {
+                      "alignItems": "flex-start"
+                    },
+                    "type": "ia.container.flex"
+                  },
+                  {
+                    "meta": {
+                      "domId": "XyChartEnableTheme",
+                      "name": "XyChart"
+                    },
+                    "position": {
+                      "grow": 1
+                    },
+                    "propConfig": {
+                      "position.display": {
+                        "binding": {
+                          "config": {
+                            "expression": "!{view.custom.analysis.dataLoading}"
+                          },
+                          "type": "expr"
+                        }
+                      },
+                      "props.cursor.series": {
+                        "binding": {
+                          "config": {
+                            "path": "this.props.series[0].name"
+                          },
+                          "type": "property"
+                        }
+                      },
+                      "props.dataSources.dataset": {
+                        "binding": {
+                          "config": {
+                            "path": "view.custom.analysis.dataset"
+                          },
+                          "type": "property"
+                        }
+                      },
+                      "props.series": {
+                        "binding": {
+                          "config": {
+                            "path": "view.custom.analysis.series"
+                          },
+                          "type": "property"
+                        }
+                      },
+                      "props.title.text": {
+                        "binding": {
+                          "config": {
+                            "path": "view.custom.analysis.title"
+                          },
+                          "type": "property"
+                        }
+                      },
+                      "props.xAxes[0].value.range": {
+                        "binding": {
+                          "config": {
+                            "path": "view.custom.rangeSelector.zeroedRange"
+                          },
+                          "type": "property"
+                        }
+                      }
+                    },
+                    "props": {
+                      "cursor": {},
+                      "dataSources": {},
+                      "legend": {
+                        "labels": {
+                          "text": "[bold]{name}[/]\nmin: {valueY.low}\nmax: {valueY.high}"
+                        }
+                      },
+                      "selection": {
+                        "enabled": true
+                      },
+                      "style": {
+                        "overflow": "visible",
+                        "overflowX": "visible",
+                        "overflowY": "visible"
+                      },
+                      "title": {
+                        "appearance": {
+                          "font": {
+                            "size": "18px"
+                          },
+                          "padding": {
+                            "bottom": 16
+                          }
+                        }
+                      },
+                      "xAxes": [
+                        {
+                          "appearance": {
+                            "font": {
+                              "size": "",
+                              "weight": 500
+                            },
+                            "grid": {
+                              "color": "",
+                              "dashArray": "",
+                              "minDistance": 60,
+                              "opacity": 1,
+                              "position": 0.5
+                            },
+                            "inside": false,
+                            "labels": {
+                              "color": "",
+                              "horizontalCenter": "middle",
+                              "opacity": 1,
+                              "rotation": 0,
+                              "verticalCenter": "middle"
+                            },
+                            "opposite": false
+                          },
+                          "category": {
+                            "break": {
+                              "enabled": false,
+                              "endCategory": "",
+                              "size": 0.05,
+                              "startCategory": ""
+                            }
+                          },
+                          "date": {
+                            "baseInterval": {
+                              "count": 1,
+                              "enabled": false,
+                              "skipEmptyPeriods": false,
+                              "timeUnit": "hour"
+                            },
+                            "break": {
+                              "enabled": false,
+                              "endDate": "",
+                              "size": 0.05,
+                              "startDate": ""
+                            },
+                            "format": "M/d",
+                            "inputFormat": "yyyy-MM-dd kk:mm:ss",
+                            "range": {
+                              "max": "",
+                              "min": "",
+                              "useStrict": false
+                            }
+                          },
+                          "inversed": false,
+                          "label": {
+                            "color": "",
+                            "enabled": true,
+                            "text": "Time"
+                          },
+                          "name": "time",
+                          "render": "value",
+                          "tooltip": {
+                            "background": {
+                              "color": "",
+                              "opacity": 1
+                            },
+                            "cornerRadius": 3,
+                            "enabled": true,
+                            "pointerLength": 4,
+                            "text": ""
+                          },
+                          "value": {
+                            "break": {
+                              "enabled": false,
+                              "endValue": 100,
+                              "size": 0.05,
+                              "startValue": 0
+                            },
+                            "format": "#,###.######",
+                            "logarithmic": false
+                          },
+                          "visible": true
+                        }
+                      ],
+                      "yAxes": [
+                        {
+                          "appearance": {
+                            "font": {
+                              "size": "",
+                              "weight": 500
+                            },
+                            "grid": {
+                              "color": "",
+                              "dashArray": "",
+                              "minDistance": null,
+                              "opacity": 1,
+                              "position": 0.5
+                            },
+                            "inside": false,
+                            "labels": {
+                              "color": "",
+                              "horizontalCenter": "middle",
+                              "opacity": 1,
+                              "rotation": 0,
+                              "verticalCenter": "middle"
+                            },
+                            "opposite": false
+                          },
+                          "category": {
+                            "break": {
+                              "enabled": false,
+                              "endCategory": "",
+                              "size": 0.05,
+                              "startCategory": ""
+                            }
+                          },
+                          "date": {
+                            "baseInterval": {
+                              "count": 1,
+                              "enabled": false,
+                              "skipEmptyPeriods": false,
+                              "timeUnit": "hour"
+                            },
+                            "break": {
+                              "enabled": false,
+                              "endDate": "",
+                              "size": 0.05,
+                              "startDate": ""
+                            },
+                            "format": "M/d/yyyy HH:mm:ss",
+                            "inputFormat": "yyyy-MM-dd kk:mm:ss",
+                            "range": {
+                              "max": "",
+                              "min": "",
+                              "useStrict": false
+                            }
+                          },
+                          "inversed": false,
+                          "label": {
+                            "color": "",
+                            "enabled": true,
+                            "text": "Value"
+                          },
+                          "name": "Left",
+                          "render": "value",
+                          "tooltip": {
+                            "background": {
+                              "color": "",
+                              "opacity": 1
+                            },
+                            "cornerRadius": 3,
+                            "enabled": true,
+                            "pointerLength": 4,
+                            "text": ""
+                          },
+                          "value": {
+                            "break": {
+                              "enabled": false,
+                              "endValue": 100,
+                              "size": 0.05,
+                              "startValue": 0
+                            },
+                            "format": "#,###.##",
+                            "logarithmic": false,
+                            "range": {
+                              "max": "",
+                              "min": "",
+                              "useStrict": false
+                            }
+                          },
+                          "visible": true
+                        },
+                        {
+                          "appearance": {
+                            "font": {
+                              "size": "",
+                              "weight": 500
+                            },
+                            "grid": {
+                              "color": "",
+                              "dashArray": "",
+                              "minDistance": null,
+                              "opacity": 1,
+                              "position": 0.5
+                            },
+                            "inside": false,
+                            "labels": {
+                              "color": "",
+                              "horizontalCenter": "middle",
+                              "opacity": 1,
+                              "rotation": 0,
+                              "verticalCenter": "middle"
+                            },
+                            "opposite": true
+                          },
+                          "category": {
+                            "break": {
+                              "enabled": false,
+                              "endCategory": "",
+                              "size": 0.05,
+                              "startCategory": ""
+                            }
+                          },
+                          "date": {
+                            "baseInterval": {
+                              "count": 1,
+                              "enabled": false,
+                              "skipEmptyPeriods": false,
+                              "timeUnit": "hour"
+                            },
+                            "break": {
+                              "enabled": false,
+                              "endDate": "",
+                              "size": 0.05,
+                              "startDate": ""
+                            },
+                            "format": "M/d/yyyy HH:mm:ss",
+                            "inputFormat": "yyyy-MM-dd kk:mm:ss",
+                            "range": {
+                              "max": "",
+                              "min": "",
+                              "useStrict": false
+                            }
+                          },
+                          "inversed": false,
+                          "label": {
+                            "color": "",
+                            "enabled": true,
+                            "text": "Value"
+                          },
+                          "name": "Right",
+                          "render": "value",
+                          "tooltip": {
+                            "background": {
+                              "color": "",
+                              "opacity": 1
+                            },
+                            "cornerRadius": 3,
+                            "enabled": false,
+                            "pointerLength": 4,
+                            "text": ""
+                          },
+                          "value": {
+                            "break": {
+                              "enabled": false,
+                              "endValue": 100,
+                              "size": 0.05,
+                              "startValue": 0
+                            },
+                            "format": "#,###.##",
+                            "logarithmic": false,
+                            "range": {
+                              "max": "",
+                              "min": "",
+                              "useStrict": false
+                            }
+                          },
+                          "visible": true
+                        }
+                      ]
+                    },
+                    "type": "ia.chart.xy"
+                  },
+                  {
+                    "meta": {
+                      "name": "Placeholder"
+                    },
+                    "position": {
+                      "basis": "32px",
+                      "grow": 1
+                    },
+                    "propConfig": {
+                      "position.display": {
+                        "binding": {
+                          "config": {
+                            "path": "view.custom.analysis.dataLoading"
+                          },
+                          "type": "property"
+                        }
+                      },
+                      "props.text": {
+                        "binding": {
+                          "config": {
+                            "path": "view.custom.analysis.placeholderText"
+                          },
+                          "type": "property"
+                        }
+                      }
+                    },
+                    "props": {
+                      "textStyle": {
+                        "textAlign": "center"
+                      }
+                    },
+                    "type": "ia.display.label"
+                  }
+                ],
+                "meta": {
+                  "name": "Analysis"
+                },
+                "position": {
+                  "basis": "600px",
+                  "grow": 1
+                },
+                "props": {
+                  "direction": "column",
+                  "style": {
+                    "classes": "exchange/comtrade/section",
+                    "overflow": "visible"
+                  }
+                },
+                "type": "ia.container.flex"
+              },
+              {
+                "children": [
+                  {
+                    "meta": {
+                      "name": "Label"
+                    },
+                    "position": {
+                      "basis": "32px",
+                      "shrink": 0
+                    },
+                    "props": {
+                      "alignVertical": "top",
+                      "text": "Phasor"
+                    },
+                    "type": "ia.display.label"
+                  },
+                  {
+                    "meta": {
+                      "name": "Disclaimer"
+                    },
+                    "position": {
+                      "basis": "32px",
+                      "shrink": 0
+                    },
+                    "props": {
+                      "alignVertical": "top",
+                      "text": "*Values displayed in this Phasor panel are static.",
+                      "textStyle": {
+                        "color": "--neutral-40",
+                        "fontSize": "14px"
+                      }
+                    },
+                    "type": "ia.display.label"
+                  },
+                  {
+                    "meta": {
+                      "name": "Phasor"
+                    },
+                    "position": {
+                      "basis": "320px",
+                      "grow": 1
+                    },
+                    "props": {
+                      "params": {
+                        "arrows": [
+                          {
+                            "angle": -126,
+                            "color": "dodgerblue",
+                            "label": "I3",
+                            "length": 0.9
+                          },
+                          {
+                            "angle": -120,
+                            "color": "blue",
+                            "label": "V3",
+                            "length": 0.9
+                          },
+                          {
+                            "angle": 114,
+                            "color": "lightgreen",
+                            "label": "I2",
+                            "length": 0.9
+                          },
+                          {
+                            "angle": 120,
+                            "color": "green",
+                            "label": "V2",
+                            "length": 0.9
+                          },
+                          {
+                            "angle": -6,
+                            "color": "pink",
+                            "label": "I1",
+                            "length": 0.9
+                          },
+                          {
+                            "angle": 0,
+                            "color": "red",
+                            "label": "V1",
+                            "length": 0.9
+                          }
+                        ],
+                        "categories": [
+                          {
+                            "name": 90
+                          },
+                          {
+                            "name": ""
+                          },
+                          {
+                            "name": ""
+                          },
+                          {
+                            "name": 0
+                          },
+                          {
+                            "name": ""
+                          },
+                          {
+                            "name": ""
+                          },
+                          {
+                            "name": 270
+                          },
+                          {
+                            "name": ""
+                          },
+                          {
+                            "name": ""
+                          },
+                          {
+                            "name": 180
+                          },
+                          {
+                            "name": ""
+                          },
+                          {
+                            "name": ""
+                          }
+                        ],
+                        "scales": 4
+                      },
+                      "path": "Exchange/Phasor/Phasor"
+                    },
+                    "type": "ia.display.view"
+                  },
+                  {
+                    "meta": {
+                      "name": "Table"
+                    },
+                    "position": {
+                      "basis": "130px",
+                      "shrink": 0
+                    },
+                    "props": {
+                      "columns": [
+                        {
+                          "align": "center",
+                          "boolean": "checkbox",
+                          "dateFormat": "MM/DD/YYYY",
+                          "editable": false,
+                          "field": "I RMS",
+                          "filter": {
+                            "boolean": {
+                              "condition": ""
+                            },
+                            "date": {
+                              "condition": "",
+                              "value": ""
+                            },
+                            "enabled": false,
+                            "number": {
+                              "condition": "",
+                              "value": ""
+                            },
+                            "string": {
+                              "condition": "",
+                              "value": ""
+                            },
+                            "visible": "on-hover"
+                          },
+                          "footer": {
+                            "align": "center",
+                            "justify": "left",
+                            "style": {
+                              "classes": ""
+                            },
+                            "title": ""
+                          },
+                          "header": {
+                            "align": "center",
+                            "justify": "left",
+                            "style": {
+                              "classes": ""
+                            },
+                            "title": ""
+                          },
+                          "justify": "auto",
+                          "nullFormat": {
+                            "includeNullStrings": false,
+                            "nullFormatValue": "",
+                            "strict": false
+                          },
+                          "number": "value",
+                          "numberFormat": "0,0.##",
+                          "progressBar": {
+                            "bar": {
+                              "color": "",
+                              "style": {
+                                "classes": ""
+                              }
+                            },
+                            "max": 100,
+                            "min": 0,
+                            "track": {
+                              "color": "",
+                              "style": {
+                                "classes": ""
+                              }
+                            },
+                            "value": {
+                              "enabled": true,
+                              "format": "0,0.##",
+                              "justify": "center",
+                              "style": {
+                                "classes": ""
+                              }
+                            }
+                          },
+                          "render": "auto",
+                          "resizable": false,
+                          "sort": "none",
+                          "sortable": false,
+                          "strictWidth": false,
+                          "style": {
+                            "classes": ""
+                          },
+                          "toggleSwitch": {
+                            "color": {
+                              "selected": "",
+                              "unselected": ""
+                            }
+                          },
+                          "viewParams": {},
+                          "viewPath": "",
+                          "visible": true,
+                          "width": 70
+                        },
+                        {
+                          "align": "center",
+                          "boolean": "checkbox",
+                          "dateFormat": "MM/DD/YYYY",
+                          "editable": false,
+                          "field": "PF",
+                          "filter": {
+                            "boolean": {
+                              "condition": ""
+                            },
+                            "date": {
+                              "condition": "",
+                              "value": ""
+                            },
+                            "enabled": false,
+                            "number": {
+                              "condition": "",
+                              "value": ""
+                            },
+                            "string": {
+                              "condition": "",
+                              "value": ""
+                            },
+                            "visible": "on-hover"
+                          },
+                          "footer": {
+                            "align": "center",
+                            "justify": "left",
+                            "style": {
+                              "classes": ""
+                            },
+                            "title": ""
+                          },
+                          "header": {
+                            "align": "center",
+                            "justify": "left",
+                            "style": {
+                              "classes": ""
+                            },
+                            "title": ""
+                          },
+                          "justify": "auto",
+                          "nullFormat": {
+                            "includeNullStrings": false,
+                            "nullFormatValue": "",
+                            "strict": false
+                          },
+                          "number": "value",
+                          "numberFormat": "0,0.##",
+                          "progressBar": {
+                            "bar": {
+                              "color": "",
+                              "style": {
+                                "classes": ""
+                              }
+                            },
+                            "max": 100,
+                            "min": 0,
+                            "track": {
+                              "color": "",
+                              "style": {
+                                "classes": ""
+                              }
+                            },
+                            "value": {
+                              "enabled": true,
+                              "format": "0,0.##",
+                              "justify": "center",
+                              "style": {
+                                "classes": ""
+                              }
+                            }
+                          },
+                          "render": "auto",
+                          "resizable": true,
+                          "sort": "none",
+                          "sortable": false,
+                          "strictWidth": false,
+                          "style": {
+                            "classes": ""
+                          },
+                          "toggleSwitch": {
+                            "color": {
+                              "selected": "",
+                              "unselected": ""
+                            }
+                          },
+                          "viewParams": {},
+                          "viewPath": "",
+                          "visible": true,
+                          "width": 70
+                        },
+                        {
+                          "align": "center",
+                          "boolean": "checkbox",
+                          "dateFormat": "MM/DD/YYYY",
+                          "editable": false,
+                          "field": "V I",
+                          "filter": {
+                            "boolean": {
+                              "condition": ""
+                            },
+                            "date": {
+                              "condition": "",
+                              "value": ""
+                            },
+                            "enabled": false,
+                            "number": {
+                              "condition": "",
+                              "value": ""
+                            },
+                            "string": {
+                              "condition": "",
+                              "value": ""
+                            },
+                            "visible": "on-hover"
+                          },
+                          "footer": {
+                            "align": "center",
+                            "justify": "left",
+                            "style": {
+                              "classes": ""
+                            },
+                            "title": ""
+                          },
+                          "header": {
+                            "align": "center",
+                            "justify": "left",
+                            "style": {
+                              "classes": ""
+                            },
+                            "title": ""
+                          },
+                          "justify": "auto",
+                          "nullFormat": {
+                            "includeNullStrings": false,
+                            "nullFormatValue": "",
+                            "strict": false
+                          },
+                          "number": "value",
+                          "numberFormat": "0,0.##",
+                          "progressBar": {
+                            "bar": {
+                              "color": "",
+                              "style": {
+                                "classes": ""
+                              }
+                            },
+                            "max": 100,
+                            "min": 0,
+                            "track": {
+                              "color": "",
+                              "style": {
+                                "classes": ""
+                              }
+                            },
+                            "value": {
+                              "enabled": true,
+                              "format": "0,0.##",
+                              "justify": "center",
+                              "style": {
+                                "classes": ""
+                              }
+                            }
+                          },
+                          "render": "auto",
+                          "resizable": true,
+                          "sort": "none",
+                          "sortable": false,
+                          "strictWidth": false,
+                          "style": {
+                            "classes": ""
+                          },
+                          "toggleSwitch": {
+                            "color": {
+                              "selected": "",
+                              "unselected": ""
+                            }
+                          },
+                          "viewParams": {},
+                          "viewPath": "",
+                          "visible": true,
+                          "width": 70
+                        },
+                        {
+                          "align": "center",
+                          "boolean": "checkbox",
+                          "dateFormat": "MM/DD/YYYY",
+                          "editable": false,
+                          "field": "V RMS",
+                          "filter": {
+                            "boolean": {
+                              "condition": ""
+                            },
+                            "date": {
+                              "condition": "",
+                              "value": ""
+                            },
+                            "enabled": false,
+                            "number": {
+                              "condition": "",
+                              "value": ""
+                            },
+                            "string": {
+                              "condition": "",
+                              "value": ""
+                            },
+                            "visible": "on-hover"
+                          },
+                          "footer": {
+                            "align": "center",
+                            "justify": "left",
+                            "style": {
+                              "classes": ""
+                            },
+                            "title": ""
+                          },
+                          "header": {
+                            "align": "center",
+                            "justify": "left",
+                            "style": {
+                              "classes": ""
+                            },
+                            "title": ""
+                          },
+                          "justify": "auto",
+                          "nullFormat": {
+                            "includeNullStrings": false,
+                            "nullFormatValue": "",
+                            "strict": false
+                          },
+                          "number": "value",
+                          "numberFormat": "0,0.##",
+                          "progressBar": {
+                            "bar": {
+                              "color": "",
+                              "style": {
+                                "classes": ""
+                              }
+                            },
+                            "max": 100,
+                            "min": 0,
+                            "track": {
+                              "color": "",
+                              "style": {
+                                "classes": ""
+                              }
+                            },
+                            "value": {
+                              "enabled": true,
+                              "format": "0,0.##",
+                              "justify": "center",
+                              "style": {
+                                "classes": ""
+                              }
+                            }
+                          },
+                          "render": "auto",
+                          "resizable": true,
+                          "sort": "none",
+                          "sortable": false,
+                          "strictWidth": false,
+                          "style": {
+                            "classes": ""
+                          },
+                          "toggleSwitch": {
+                            "color": {
+                              "selected": "",
+                              "unselected": ""
+                            }
+                          },
+                          "viewParams": {},
+                          "viewPath": "",
+                          "visible": true,
+                          "width": 70
+                        },
+                        {
+                          "align": "center",
+                          "boolean": "checkbox",
+                          "dateFormat": "MM/DD/YYYY",
+                          "editable": false,
+                          "field": "V V",
+                          "filter": {
+                            "boolean": {
+                              "condition": ""
+                            },
+                            "date": {
+                              "condition": "",
+                              "value": ""
+                            },
+                            "enabled": false,
+                            "number": {
+                              "condition": "",
+                              "value": ""
+                            },
+                            "string": {
+                              "condition": "",
+                              "value": ""
+                            },
+                            "visible": "on-hover"
+                          },
+                          "footer": {
+                            "align": "center",
+                            "justify": "left",
+                            "style": {
+                              "classes": ""
+                            },
+                            "title": ""
+                          },
+                          "header": {
+                            "align": "center",
+                            "justify": "left",
+                            "style": {
+                              "classes": ""
+                            },
+                            "title": ""
+                          },
+                          "justify": "auto",
+                          "nullFormat": {
+                            "includeNullStrings": false,
+                            "nullFormatValue": "",
+                            "strict": false
+                          },
+                          "number": "value",
+                          "numberFormat": "0,0.##",
+                          "progressBar": {
+                            "bar": {
+                              "color": "",
+                              "style": {
+                                "classes": ""
+                              }
+                            },
+                            "max": 100,
+                            "min": 0,
+                            "track": {
+                              "color": "",
+                              "style": {
+                                "classes": ""
+                              }
+                            },
+                            "value": {
+                              "enabled": true,
+                              "format": "0,0.##",
+                              "justify": "center",
+                              "style": {
+                                "classes": ""
+                              }
+                            }
+                          },
+                          "render": "auto",
+                          "resizable": true,
+                          "sort": "none",
+                          "sortable": false,
+                          "strictWidth": false,
+                          "style": {
+                            "classes": ""
+                          },
+                          "toggleSwitch": {
+                            "color": {
+                              "selected": "",
+                              "unselected": ""
+                            }
+                          },
+                          "viewParams": {},
+                          "viewPath": "",
+                          "visible": true,
+                          "width": 70
+                        }
+                      ],
+                      "data": [
+                        {
+                          "I RMS": 497,
+                          "PF": "10 lag",
+                          "V I": -6,
+                          "V RMS": 277,
+                          "V V": "0"
+                        },
+                        {
+                          "I RMS": 498,
+                          "PF": "10 lag",
+                          "V I": -6,
+                          "V RMS": 276,
+                          "V V": 120
+                        },
+                        {
+                          "I RMS": 497,
+                          "PF": "10 lag",
+                          "V I": -6,
+                          "V RMS": 277,
+                          "V V": -120
+                        }
+                      ],
+                      "pager": {
+                        "bottom": false
+                      },
+                      "style": {
+                        "margin-top": "32px"
+                      }
+                    },
+                    "type": "ia.display.table"
+                  }
+                ],
+                "meta": {
+                  "name": "Phasor"
+                },
+                "position": {
+                  "basis": "370px",
+                  "shrink": 0
+                },
+                "propConfig": {
+                  "position.display": {
+                    "binding": {
+                      "config": {
+                        "path": "view.custom.ui.showPhasor"
+                      },
+                      "type": "property"
+                    }
+                  }
+                },
+                "props": {
+                  "direction": "column",
+                  "style": {
+                    "classes": "exchange/comtrade/section"
+                  }
+                },
+                "type": "ia.container.flex"
+              }
+            ],
+            "meta": {
+              "name": "Detailed"
+            },
+            "position": {
+              "basis": "600px",
+              "grow": 1
+            },
+            "props": {
+              "style": {
+                "overflow": "visible"
+              }
+            },
+            "type": "ia.container.flex"
+          }
+        ],
+        "meta": {
+          "name": "Display"
+        },
+        "position": {
+          "basis": "200px",
+          "grow": 1
+        },
+        "props": {
+          "direction": "column"
+        },
+        "type": "ia.container.flex"
+      }
+    ],
+    "events": {
+      "system": {
+        "onStartup": {
+          "config": {
+            "script": "\tself.resetData()\n\tself.view.custom.tree.items \u003d exchange.comtrade.utils.localTree()"
+          },
+          "scope": "G",
+          "type": "script"
+        }
+      }
+    },
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "style": {
+        "padding": "8px"
+      }
+    },
+    "scripts": {
+      "customMethods": [
+        {
+          "name": "resetData",
+          "params": [],
+          "script": "\t# implement your method here\n\tself.view.custom.rangeSelector.placeholderText \u003d \"Select file to display\"\n\tself.view.custom.tree.selectionData[0].value.isFile \u003d False\n\tself.view.custom.parsedData.data \u003d None\n\tself.view.custom.parsedData.timestamp \u003d system.date.now()\n\tself.view.custom.parsedData.filename \u003d \u0027No file selected\u0027\n\tself.view.custom.analysis.dataset \u003d None\n\tself.view.custom.analysis.dataLoading \u003d True"
+        }
+      ],
+      "extensionFunctions": null,
+      "messageHandlers": []
+    },
+    "type": "ia.container.flex"
+  }
+}

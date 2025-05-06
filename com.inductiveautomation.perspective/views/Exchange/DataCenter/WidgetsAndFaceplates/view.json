@@ -1,0 +1,1294 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {
+    "defaultSize": {
+      "height": 900,
+      "width": 1920
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "meta": {
+                      "name": "Title"
+                    },
+                    "position": {
+                      "shrink": 0
+                    },
+                    "props": {
+                      "style": {
+                        "classes": "exchange/datacenter/overview/text/secondary-title"
+                      },
+                      "text": "KPI Detail Widget"
+                    },
+                    "type": "ia.display.label"
+                  },
+                  {
+                    "meta": {
+                      "name": "KpiDetail"
+                    },
+                    "position": {
+                      "basis": "320px",
+                      "shrink": 0
+                    },
+                    "props": {
+                      "params": {
+                        "currentValueBasis": "auto",
+                        "movingAnalogIndicator": {
+                          "alarms": {
+                            "inactiveRangeColor": "var(--neutral-60)",
+                            "level1": {
+                              "highHigh": null,
+                              "lowLow": null,
+                              "rangeColor": "var(--error)"
+                            },
+                            "level2": {
+                              "high": null,
+                              "low": null,
+                              "rangeColor": "var(--warningSecondary)"
+                            }
+                          },
+                          "defaultRangeColor": "var(--neutral-10)",
+                          "desired": {
+                            "high": 1.806,
+                            "low": 1.224,
+                            "rangeColor": "var(--callToAction)"
+                          },
+                          "indicator": {
+                            "color": "var(--label)",
+                            "reverse": false,
+                            "size": 4.5,
+                            "stroke": {
+                              "color": "var(--neutral-100)",
+                              "width": 0
+                            }
+                          },
+                          "interlocks": {
+                            "high": null,
+                            "low": null,
+                            "rangeColor": "var(--neutral-100)"
+                          },
+                          "label": {
+                            "format": "#,##0",
+                            "position": {
+                              "applyOffsetsOnlyWhenLabelVisible": true,
+                              "horizontalOffset": 1,
+                              "verticalOffset": 1
+                            },
+                            "style": {
+                              "classes": "",
+                              "fill": "var(--neutral-100)",
+                              "fontSize": 4
+                            },
+                            "visible": false
+                          },
+                          "rangesBar": {
+                            "size": 5,
+                            "stroke": {
+                              "color": "var(--neutral-50)",
+                              "width": 0.2
+                            },
+                            "verticalDisplay": true
+                          },
+                          "setpoint": {
+                            "color": "var(--neutral-10)",
+                            "stroke": {
+                              "color": "var(--info)",
+                              "width": 0.5
+                            },
+                            "value": null
+                          }
+                        },
+                        "numberFormat": "#,##0.000",
+                        "rangesSelected": [
+                          "24HR",
+                          "7DAY"
+                        ],
+                        "tagPath": "[DataCenterDemo]Exchange/DataCenterDemo/KPI/PowerUsageEffectiveness",
+                        "title": "Power Usage Effectiveness (PUE)",
+                        "trend": {
+                          "desired": {
+                            "high": 1.806,
+                            "low": 1.224
+                          },
+                          "lineColor": "var(--callToAction)"
+                        }
+                      },
+                      "path": "Exchange/DataCenter/KPIDetails/Main"
+                    },
+                    "type": "ia.display.view"
+                  },
+                  {
+                    "meta": {
+                      "name": "Description"
+                    },
+                    "position": {
+                      "shrink": 0
+                    },
+                    "props": {
+                      "markdown": {
+                        "escapeHtml": false
+                      },
+                      "source": "\u003cp\u003eThis \u003cstrong\u003eKPI Detail Widget\u003c/strong\u003e is pointed at a single tag, which then displays the real-time value in a moving analog indicator to provide context of where the real-time value lies within a desired or expected range.\n\u003cbr\u003e\u003cbr\u003e\nAs long as the tag used with the widget is historized, sparkline trends will then be displayed showing 24 hour and 7 day history to show at a glance what\u0027s been happening recently with that particular KPI.\n\u003cbr\u003e\u003cbr\u003e\nFor each historical trend, we also display the minimum, maximum, and average values for the given time-period to provide further insight.\u003c/p\u003e",
+                      "style": {
+                        "classes": "exchange/datacenter/overview/text/description"
+                      }
+                    },
+                    "type": "ia.display.markdown"
+                  }
+                ],
+                "meta": {
+                  "name": "KpiDetail"
+                },
+                "position": {
+                  "basis": "450px"
+                },
+                "props": {
+                  "direction": "column",
+                  "style": {
+                    "gap": "10px"
+                  }
+                },
+                "type": "ia.container.flex"
+              },
+              {
+                "children": [
+                  {
+                    "meta": {
+                      "name": "Title"
+                    },
+                    "position": {
+                      "shrink": 0
+                    },
+                    "props": {
+                      "style": {
+                        "classes": "exchange/datacenter/overview/text/secondary-title"
+                      },
+                      "text": "Current \u0026 Voltage Widget"
+                    },
+                    "type": "ia.display.label"
+                  },
+                  {
+                    "meta": {
+                      "name": "CurrentAndVoltage"
+                    },
+                    "position": {
+                      "shrink": 0
+                    },
+                    "props": {
+                      "params": {
+                        "current": {
+                          "title": "INPUT CURRENT",
+                          "trend": {
+                            "desired": {
+                              "high": 1700,
+                              "low": 800
+                            },
+                            "numberFormat": "#,##0.000",
+                            "rangeSelected": "24HR",
+                            "seriesName": "INPUT CURRENT"
+                          },
+                          "values": {
+                            "first": {
+                              "maiBasis": "80px",
+                              "movingAnalogIndicator": {
+                                "alarms": {
+                                  "inactiveRangeColor": "var(--neutral-60)",
+                                  "level1": {
+                                    "highHigh": null,
+                                    "lowLow": null,
+                                    "rangeColor": "var(--error)"
+                                  },
+                                  "level2": {
+                                    "high": null,
+                                    "low": null,
+                                    "rangeColor": "var(--warningSecondary)"
+                                  }
+                                },
+                                "defaultRangeColor": "var(--neutral-10)",
+                                "desired": {
+                                  "high": 1700,
+                                  "low": 800,
+                                  "rangeColor": "var(--callToAction)"
+                                },
+                                "indicator": {
+                                  "color": "var(--label)",
+                                  "reverse": false,
+                                  "size": 8,
+                                  "stroke": {
+                                    "color": "var(--neutral-100)",
+                                    "width": 0
+                                  }
+                                },
+                                "interlocks": {
+                                  "high": null,
+                                  "low": null,
+                                  "rangeColor": "var(--neutral-100)"
+                                },
+                                "label": {
+                                  "format": "#,##0",
+                                  "position": {
+                                    "applyOffsetsOnlyWhenLabelVisible": true,
+                                    "horizontalOffset": 1,
+                                    "verticalOffset": 1
+                                  },
+                                  "style": {
+                                    "classes": "",
+                                    "fill": "var(--neutral-100)",
+                                    "fontSize": 4
+                                  },
+                                  "visible": false
+                                },
+                                "rangesBar": {
+                                  "size": 8,
+                                  "stroke": {
+                                    "color": "var(--neutral-50)",
+                                    "width": 0.2
+                                  },
+                                  "verticalDisplay": true
+                                },
+                                "setpoint": {
+                                  "color": "var(--neutral-10)",
+                                  "stroke": {
+                                    "color": "var(--info)",
+                                    "width": 0.5
+                                  },
+                                  "value": null
+                                }
+                              },
+                              "numberFormat": "###0.#",
+                              "pathToTag": "Input/SystemInputCurrentA",
+                              "title": "A",
+                              "trend": {
+                                "aggregate": "LastValue",
+                                "alias": "A",
+                                "color": "var(--seq-2)"
+                              }
+                            },
+                            "second": {
+                              "maiBasis": "80px",
+                              "movingAnalogIndicator": {
+                                "alarms": {
+                                  "inactiveRangeColor": "var(--neutral-60)",
+                                  "level1": {
+                                    "highHigh": null,
+                                    "lowLow": null,
+                                    "rangeColor": "var(--error)"
+                                  },
+                                  "level2": {
+                                    "high": null,
+                                    "low": null,
+                                    "rangeColor": "var(--warningSecondary)"
+                                  }
+                                },
+                                "defaultRangeColor": "var(--neutral-10)",
+                                "desired": {
+                                  "high": 1700,
+                                  "low": 800,
+                                  "rangeColor": "var(--callToAction)"
+                                },
+                                "indicator": {
+                                  "color": "var(--label)",
+                                  "reverse": false,
+                                  "size": 8,
+                                  "stroke": {
+                                    "color": "var(--neutral-100)",
+                                    "width": 0
+                                  }
+                                },
+                                "interlocks": {
+                                  "high": null,
+                                  "low": null,
+                                  "rangeColor": "var(--neutral-100)"
+                                },
+                                "label": {
+                                  "format": "#,##0",
+                                  "position": {
+                                    "applyOffsetsOnlyWhenLabelVisible": true,
+                                    "horizontalOffset": 1,
+                                    "verticalOffset": 1
+                                  },
+                                  "style": {
+                                    "classes": "",
+                                    "fill": "var(--neutral-100)",
+                                    "fontSize": 4
+                                  },
+                                  "visible": false
+                                },
+                                "rangesBar": {
+                                  "size": 8,
+                                  "stroke": {
+                                    "color": "var(--neutral-50)",
+                                    "width": 0.2
+                                  },
+                                  "verticalDisplay": true
+                                },
+                                "setpoint": {
+                                  "color": "var(--neutral-10)",
+                                  "stroke": {
+                                    "color": "var(--info)",
+                                    "width": 0.5
+                                  },
+                                  "value": null
+                                }
+                              },
+                              "numberFormat": "###0.#",
+                              "pathToTag": "Input/SystemInputCurrentB",
+                              "title": "B",
+                              "trend": {
+                                "aggregate": "LastValue",
+                                "alias": "B",
+                                "color": "var(--qual-10)"
+                              }
+                            },
+                            "third": {
+                              "maiBasis": "80px",
+                              "movingAnalogIndicator": {
+                                "alarms": {
+                                  "inactiveRangeColor": "var(--neutral-60)",
+                                  "level1": {
+                                    "highHigh": null,
+                                    "lowLow": null,
+                                    "rangeColor": "var(--error)"
+                                  },
+                                  "level2": {
+                                    "high": null,
+                                    "low": null,
+                                    "rangeColor": "var(--warningSecondary)"
+                                  }
+                                },
+                                "defaultRangeColor": "var(--neutral-10)",
+                                "desired": {
+                                  "high": 1700,
+                                  "low": 800,
+                                  "rangeColor": "var(--callToAction)"
+                                },
+                                "indicator": {
+                                  "color": "var(--label)",
+                                  "reverse": false,
+                                  "size": 8,
+                                  "stroke": {
+                                    "color": "var(--neutral-100)",
+                                    "width": 0
+                                  }
+                                },
+                                "interlocks": {
+                                  "high": null,
+                                  "low": null,
+                                  "rangeColor": "var(--neutral-100)"
+                                },
+                                "label": {
+                                  "format": "#,##0",
+                                  "position": {
+                                    "applyOffsetsOnlyWhenLabelVisible": true,
+                                    "horizontalOffset": 1,
+                                    "verticalOffset": 1
+                                  },
+                                  "style": {
+                                    "classes": "",
+                                    "fill": "var(--neutral-100)",
+                                    "fontSize": 4
+                                  },
+                                  "visible": false
+                                },
+                                "rangesBar": {
+                                  "size": 8,
+                                  "stroke": {
+                                    "color": "var(--neutral-50)",
+                                    "width": 0.2
+                                  },
+                                  "verticalDisplay": true
+                                },
+                                "setpoint": {
+                                  "color": "var(--neutral-10)",
+                                  "stroke": {
+                                    "color": "var(--info)",
+                                    "width": 0.5
+                                  },
+                                  "value": null
+                                }
+                              },
+                              "numberFormat": "###0.#",
+                              "pathToTag": "Input/SystemInputCurrentC",
+                              "title": "C",
+                              "trend": {
+                                "aggregate": "LastValue",
+                                "alias": "C",
+                                "color": "var(--qual-7)"
+                              }
+                            }
+                          }
+                        },
+                        "tagPath": "[DataCenterDemo]Exchange/DataCenterDemo/Site1/DataHall1/Section1/UPS/UPS1A",
+                        "voltage": {
+                          "title": "INPUT VOLTAGE",
+                          "trend": {
+                            "desired": {
+                              "high": 486,
+                              "low": 474
+                            },
+                            "numberFormat": "#,##0.000",
+                            "rangeSelected": "24HR",
+                            "seriesName": "INPUT CURRENT"
+                          },
+                          "values": {
+                            "first": {
+                              "maiBasis": "80px",
+                              "movingAnalogIndicator": {
+                                "alarms": {
+                                  "inactiveRangeColor": "var(--neutral-60)",
+                                  "level1": {
+                                    "highHigh": null,
+                                    "lowLow": null,
+                                    "rangeColor": "var(--error)"
+                                  },
+                                  "level2": {
+                                    "high": null,
+                                    "low": null,
+                                    "rangeColor": "var(--warningSecondary)"
+                                  }
+                                },
+                                "defaultRangeColor": "var(--neutral-10)",
+                                "desired": {
+                                  "high": 486,
+                                  "low": 474,
+                                  "rangeColor": "var(--callToAction)"
+                                },
+                                "indicator": {
+                                  "color": "var(--label)",
+                                  "reverse": false,
+                                  "size": 8,
+                                  "stroke": {
+                                    "color": "var(--neutral-100)",
+                                    "width": 0
+                                  }
+                                },
+                                "interlocks": {
+                                  "high": null,
+                                  "low": null,
+                                  "rangeColor": "var(--neutral-100)"
+                                },
+                                "label": {
+                                  "format": "#,##0",
+                                  "position": {
+                                    "applyOffsetsOnlyWhenLabelVisible": true,
+                                    "horizontalOffset": 1,
+                                    "verticalOffset": 1
+                                  },
+                                  "style": {
+                                    "classes": "",
+                                    "fill": "var(--neutral-100)",
+                                    "fontSize": 4
+                                  },
+                                  "visible": false
+                                },
+                                "rangesBar": {
+                                  "size": 8,
+                                  "stroke": {
+                                    "color": "var(--neutral-50)",
+                                    "width": 0.2
+                                  },
+                                  "verticalDisplay": true
+                                },
+                                "setpoint": {
+                                  "color": "var(--neutral-10)",
+                                  "stroke": {
+                                    "color": "var(--info)",
+                                    "width": 0.5
+                                  },
+                                  "value": null
+                                }
+                              },
+                              "numberFormat": "###0.#",
+                              "pathToTag": "Input/SystemInputVoltageAB",
+                              "title": "A-B",
+                              "trend": {
+                                "aggregate": "LastValue",
+                                "alias": "A-B",
+                                "color": "var(--seq-2)"
+                              }
+                            },
+                            "second": {
+                              "maiBasis": "80px",
+                              "movingAnalogIndicator": {
+                                "alarms": {
+                                  "inactiveRangeColor": "var(--neutral-60)",
+                                  "level1": {
+                                    "highHigh": null,
+                                    "lowLow": null,
+                                    "rangeColor": "var(--error)"
+                                  },
+                                  "level2": {
+                                    "high": null,
+                                    "low": null,
+                                    "rangeColor": "var(--warningSecondary)"
+                                  }
+                                },
+                                "defaultRangeColor": "var(--neutral-10)",
+                                "desired": {
+                                  "high": 486,
+                                  "low": 474,
+                                  "rangeColor": "var(--callToAction)"
+                                },
+                                "indicator": {
+                                  "color": "var(--label)",
+                                  "reverse": false,
+                                  "size": 8,
+                                  "stroke": {
+                                    "color": "var(--neutral-100)",
+                                    "width": 0
+                                  }
+                                },
+                                "interlocks": {
+                                  "high": null,
+                                  "low": null,
+                                  "rangeColor": "var(--neutral-100)"
+                                },
+                                "label": {
+                                  "format": "#,##0",
+                                  "position": {
+                                    "applyOffsetsOnlyWhenLabelVisible": true,
+                                    "horizontalOffset": 1,
+                                    "verticalOffset": 1
+                                  },
+                                  "style": {
+                                    "classes": "",
+                                    "fill": "var(--neutral-100)",
+                                    "fontSize": 4
+                                  },
+                                  "visible": false
+                                },
+                                "rangesBar": {
+                                  "size": 8,
+                                  "stroke": {
+                                    "color": "var(--neutral-50)",
+                                    "width": 0.2
+                                  },
+                                  "verticalDisplay": true
+                                },
+                                "setpoint": {
+                                  "color": "var(--neutral-10)",
+                                  "stroke": {
+                                    "color": "var(--info)",
+                                    "width": 0.5
+                                  },
+                                  "value": null
+                                }
+                              },
+                              "numberFormat": "###0.#",
+                              "pathToTag": "Input/SystemInputVoltageBC",
+                              "title": "B-C",
+                              "trend": {
+                                "aggregate": "LastValue",
+                                "alias": "B-C",
+                                "color": "var(--qual-10)"
+                              }
+                            },
+                            "third": {
+                              "maiBasis": "80px",
+                              "movingAnalogIndicator": {
+                                "alarms": {
+                                  "inactiveRangeColor": "var(--neutral-60)",
+                                  "level1": {
+                                    "highHigh": null,
+                                    "lowLow": null,
+                                    "rangeColor": "var(--error)"
+                                  },
+                                  "level2": {
+                                    "high": null,
+                                    "low": null,
+                                    "rangeColor": "var(--warningSecondary)"
+                                  }
+                                },
+                                "defaultRangeColor": "var(--neutral-10)",
+                                "desired": {
+                                  "high": 486,
+                                  "low": 474,
+                                  "rangeColor": "var(--callToAction)"
+                                },
+                                "indicator": {
+                                  "color": "var(--label)",
+                                  "reverse": false,
+                                  "size": 8,
+                                  "stroke": {
+                                    "color": "var(--neutral-100)",
+                                    "width": 0
+                                  }
+                                },
+                                "interlocks": {
+                                  "high": null,
+                                  "low": null,
+                                  "rangeColor": "var(--neutral-100)"
+                                },
+                                "label": {
+                                  "format": "#,##0",
+                                  "position": {
+                                    "applyOffsetsOnlyWhenLabelVisible": true,
+                                    "horizontalOffset": 1,
+                                    "verticalOffset": 1
+                                  },
+                                  "style": {
+                                    "classes": "",
+                                    "fill": "var(--neutral-100)",
+                                    "fontSize": 4
+                                  },
+                                  "visible": false
+                                },
+                                "rangesBar": {
+                                  "size": 8,
+                                  "stroke": {
+                                    "color": "var(--neutral-50)",
+                                    "width": 0.2
+                                  },
+                                  "verticalDisplay": true
+                                },
+                                "setpoint": {
+                                  "color": "var(--neutral-10)",
+                                  "stroke": {
+                                    "color": "var(--info)",
+                                    "width": 0.5
+                                  },
+                                  "value": null
+                                }
+                              },
+                              "numberFormat": "###0.#",
+                              "pathToTag": "Input/SystemInputVoltageCA",
+                              "title": "C-A",
+                              "trend": {
+                                "aggregate": "LastValue",
+                                "alias": "C-A",
+                                "color": "var(--qual-7)"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "path": "Exchange/DataCenter/Faceplates/EmbeddedViews/CurrentAndVoltage",
+                      "style": {
+                        "classes": "exchange/datacenter/overview/section/widget-container"
+                      }
+                    },
+                    "type": "ia.display.view"
+                  },
+                  {
+                    "meta": {
+                      "name": "Description"
+                    },
+                    "position": {
+                      "shrink": 0
+                    },
+                    "props": {
+                      "markdown": {
+                        "escapeHtml": false
+                      },
+                      "source": "\u003cp\u003eThis \u003cstrong\u003eCurrent \u0026 Voltage Widget\u003c/strong\u003e displays current and voltage real-time values in moving analog indicators.\n\u003cbr\u003e\u003cbr\u003e\nAs long as the tags used with the widget are historized, trends will then be displayed showing 24 hour history to show at a glance what\u0027s been happening recently with the tags.\n\u003cbr\u003e\u003cbr\u003e\nTo use this widget for output current \u0026 voltages instead of input, you can simply alter the labels and point to different tags via the widget\u0027s parameters. Similarly, the labels above each moving analog indicator can be edited to reflect any designated current or voltage.\n\u003cbr\u003e\u003cbr\u003e\nThis widget is also used in the UPS Popup that you can view by clicking the UPS Popup button below.\u003c/p\u003e",
+                      "style": {
+                        "classes": "exchange/datacenter/overview/text/description"
+                      }
+                    },
+                    "type": "ia.display.markdown"
+                  }
+                ],
+                "meta": {
+                  "name": "CurrentAndVoltage"
+                },
+                "position": {
+                  "basis": "600px"
+                },
+                "props": {
+                  "direction": "column",
+                  "style": {
+                    "gap": "10px"
+                  }
+                },
+                "type": "ia.container.flex"
+              },
+              {
+                "children": [
+                  {
+                    "meta": {
+                      "name": "Title"
+                    },
+                    "position": {
+                      "shrink": 0
+                    },
+                    "props": {
+                      "style": {
+                        "classes": "exchange/datacenter/overview/text/secondary-title"
+                      },
+                      "text": "Input \u0026 Output Power Widgets"
+                    },
+                    "type": "ia.display.label"
+                  },
+                  {
+                    "meta": {
+                      "name": "InputPower"
+                    },
+                    "position": {
+                      "shrink": 0
+                    },
+                    "props": {
+                      "params": {
+                        "simpleGauges": {
+                          "first": {
+                            "arc": {
+                              "color": "var(--callToAction)",
+                              "width": 30
+                            },
+                            "arcBackground": {
+                              "color": "var(--neutral-50)",
+                              "opacity": 0.2
+                            },
+                            "endAngle": 405,
+                            "label": {
+                              "color": "var(--callToAction)",
+                              "maxDecimal": 4,
+                              "offsetX": 0,
+                              "offsetY": 0,
+                              "size": "10px",
+                              "units": "",
+                              "visible": false
+                            },
+                            "numberFormat": "###0.#",
+                            "pathToTag": "Input/SystemInputRealPower",
+                            "startAngle": 135,
+                            "title": "REAL"
+                          },
+                          "second": {
+                            "arc": {
+                              "color": "var(--callToAction)",
+                              "width": 30
+                            },
+                            "arcBackground": {
+                              "color": "var(--neutral-50)",
+                              "opacity": 0.2
+                            },
+                            "endAngle": 405,
+                            "label": {
+                              "color": "var(--callToAction)",
+                              "maxDecimal": 4,
+                              "offsetX": 0,
+                              "offsetY": 0,
+                              "size": "10px",
+                              "units": "",
+                              "visible": false
+                            },
+                            "numberFormat": "###0.00",
+                            "pathToTag": "Input/SystemInputPowerFactor",
+                            "startAngle": 135,
+                            "title": "FACTOR"
+                          },
+                          "third": {
+                            "arc": {
+                              "color": "var(--callToAction)",
+                              "width": 30
+                            },
+                            "arcBackground": {
+                              "color": "var(--neutral-50)",
+                              "opacity": 0.2
+                            },
+                            "endAngle": 405,
+                            "label": {
+                              "color": "var(--callToAction)",
+                              "maxDecimal": 4,
+                              "offsetX": 0,
+                              "offsetY": 0,
+                              "size": "10px",
+                              "units": "",
+                              "visible": false
+                            },
+                            "numberFormat": "###0.#",
+                            "pathToTag": "Input/SystemInputFrequency",
+                            "startAngle": 135,
+                            "title": "FREQUENCY"
+                          }
+                        },
+                        "tagPath": "[DataCenterDemo]Exchange/DataCenterDemo/Site1/DataHall1/Section1/UPS/UPS1A",
+                        "title": "INPUT POWER"
+                      },
+                      "path": "Exchange/DataCenter/Faceplates/EmbeddedViews/InputPower",
+                      "style": {
+                        "classes": "exchange/datacenter/overview/section/widget-container"
+                      }
+                    },
+                    "type": "ia.display.view"
+                  },
+                  {
+                    "meta": {
+                      "name": "OutputPower"
+                    },
+                    "position": {
+                      "shrink": 0
+                    },
+                    "props": {
+                      "params": {
+                        "simpleGauges": {
+                          "first": {
+                            "arc": {
+                              "color": "var(--callToAction)",
+                              "width": 30
+                            },
+                            "arcBackground": {
+                              "color": "var(--neutral-50)",
+                              "opacity": 0.2
+                            },
+                            "endAngle": 405,
+                            "label": {
+                              "color": "var(--callToAction)",
+                              "maxDecimal": 4,
+                              "offsetX": 0,
+                              "offsetY": 0,
+                              "size": "10px",
+                              "units": "",
+                              "visible": false
+                            },
+                            "numberFormat": "###0.#",
+                            "pathToTag": "Output/SystemOutputRealPower",
+                            "startAngle": 135,
+                            "title": "REAL"
+                          },
+                          "fourth": {
+                            "arc": {
+                              "color": "var(--callToAction)",
+                              "width": 30
+                            },
+                            "arcBackground": {
+                              "color": "var(--neutral-50)",
+                              "opacity": 0.2
+                            },
+                            "endAngle": 405,
+                            "label": {
+                              "color": "var(--callToAction)",
+                              "maxDecimal": 4,
+                              "offsetX": 0,
+                              "offsetY": 0,
+                              "size": "10px",
+                              "units": "",
+                              "visible": false
+                            },
+                            "numberFormat": "###0.00",
+                            "pathToTag": "Output/SystemOutputPowerFactor",
+                            "startAngle": 135,
+                            "title": "FACTOR"
+                          },
+                          "second": {
+                            "arc": {
+                              "color": "var(--callToAction)",
+                              "width": 30
+                            },
+                            "arcBackground": {
+                              "color": "var(--neutral-50)",
+                              "opacity": 0.2
+                            },
+                            "endAngle": 405,
+                            "label": {
+                              "color": "var(--callToAction)",
+                              "maxDecimal": 4,
+                              "offsetX": 0,
+                              "offsetY": 0,
+                              "size": "10px",
+                              "units": "",
+                              "visible": false
+                            },
+                            "numberFormat": "###0.#",
+                            "pathToTag": "Output/SystemOutputReactivePower",
+                            "startAngle": 135,
+                            "title": "REACTIVE"
+                          },
+                          "third": {
+                            "arc": {
+                              "color": "var(--callToAction)",
+                              "width": 30
+                            },
+                            "arcBackground": {
+                              "color": "var(--neutral-50)",
+                              "opacity": 0.2
+                            },
+                            "endAngle": 405,
+                            "label": {
+                              "color": "var(--callToAction)",
+                              "maxDecimal": 4,
+                              "offsetX": 0,
+                              "offsetY": 0,
+                              "size": "10px",
+                              "units": "",
+                              "visible": false
+                            },
+                            "numberFormat": "###0.#",
+                            "pathToTag": "Output/SystemOutputApparentPower",
+                            "startAngle": 135,
+                            "title": "APPARENT"
+                          }
+                        },
+                        "tagPath": "[DataCenterDemo]Exchange/DataCenterDemo/Site1/DataHall1/Section1/UPS/UPS1A",
+                        "title": "OUTPUT POWER"
+                      },
+                      "path": "Exchange/DataCenter/Faceplates/EmbeddedViews/OutputPower",
+                      "style": {
+                        "classes": "exchange/datacenter/overview/section/widget-container"
+                      }
+                    },
+                    "type": "ia.display.view"
+                  },
+                  {
+                    "meta": {
+                      "name": "Description"
+                    },
+                    "position": {
+                      "shrink": 0
+                    },
+                    "props": {
+                      "markdown": {
+                        "escapeHtml": false
+                      },
+                      "source": "\u003cp\u003eThese \u003cstrong\u003eInput \u0026 Output Power Widgets\u003c/strong\u003e display power values in a set of simple gauges.\n\u003cbr\u003e\u003cbr\u003e\nThe \u003cstrong\u003eInput Power Widget\u003c/strong\u003e displays values for Real power, power Factor, and power Frequency.\n\u003cbr\u003e\u003cbr\u003e\nThe \u003cstrong\u003eOutput Power Widget\u003c/strong\u003e displays values for Real power, Reactive power, Apparent power, and power Factor.\n\u003cbr\u003e\u003cbr\u003e\nThese widgets are also used in the UPS Popup that you can view by clicking the UPS Popup button below.\u003c/p\u003e",
+                      "style": {
+                        "classes": "exchange/datacenter/overview/text/description"
+                      }
+                    },
+                    "type": "ia.display.markdown"
+                  }
+                ],
+                "meta": {
+                  "name": "InputAndPower"
+                },
+                "position": {
+                  "basis": "450px"
+                },
+                "props": {
+                  "direction": "column",
+                  "style": {
+                    "gap": "10px"
+                  }
+                },
+                "type": "ia.container.flex"
+              }
+            ],
+            "meta": {
+              "name": "Widgets"
+            },
+            "position": {
+              "shrink": 0
+            },
+            "props": {
+              "justify": "space-evenly",
+              "style": {
+                "column-gap": "20px",
+                "row-gap": "50px"
+              },
+              "wrap": "wrap"
+            },
+            "type": "ia.container.flex"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "custom": {
+                      "tagPath": "[DataCenterDemo]Exchange/DataCenterDemo/Site1/DataHall1/Section1/UPS/UPS1A",
+                      "viewPath": "Exchange/DataCenter/Faceplates/UPS"
+                    },
+                    "events": {
+                      "component": {
+                        "onActionPerformed": {
+                          "config": {
+                            "script": "\tviewPath \u003d self.custom.viewPath\n\ttagPath \u003d self.custom.tagPath\n\tpopupTitle \u003d self.custom.popupTitle\n\tisMobile \u003d self.parent.parent.parent.getChild(\"PopupButtons\").custom.isMobile\n\tviewParams \u003d {\"tagPath\": tagPath}\n\t\n\tif isMobile:\n\t\tmobilePosition \u003d {\"width\": \"100%\", \"height\": \"100%\"}\n\t\tsystem.perspective.openPopup(\u0027upsPopup-{tagPath}\u0027.format(tagPath \u003d tagPath), viewPath, params\u003dviewParams, title\u003dpopupTitle, position\u003dmobilePosition, showCloseIcon\u003dFalse, resizable\u003dFalse, draggable\u003dFalse, modal\u003dFalse, viewportBound\u003dTrue)\n\telse:\n\t\tsystem.perspective.openPopup(\u0027upsPopup-{tagPath}\u0027.format(tagPath \u003d tagPath), viewPath, params\u003dviewParams, title\u003dpopupTitle, showCloseIcon\u003dFalse, resizable\u003dTrue, draggable\u003dTrue, modal\u003dFalse, viewportBound\u003dFalse)"
+                          },
+                          "scope": "G",
+                          "type": "script"
+                        }
+                      }
+                    },
+                    "meta": {
+                      "name": "Button"
+                    },
+                    "position": {
+                      "basis": "50px",
+                      "shrink": 0
+                    },
+                    "propConfig": {
+                      "custom.popupTitle": {
+                        "binding": {
+                          "config": {
+                            "fallbackDelay": 2.5,
+                            "mode": "indirect",
+                            "references": {
+                              "tagPath": "{this.custom.tagPath}"
+                            },
+                            "tagPath": "{tagPath}/Info/PopupTitle"
+                          },
+                          "type": "tag"
+                        }
+                      }
+                    },
+                    "props": {
+                      "style": {
+                        "classes": "exchange/datacenter/overview/popup-button"
+                      },
+                      "text": "UPS Popup"
+                    },
+                    "type": "ia.input.button"
+                  },
+                  {
+                    "meta": {
+                      "name": "Description"
+                    },
+                    "position": {
+                      "shrink": 0
+                    },
+                    "props": {
+                      "markdown": {
+                        "escapeHtml": false
+                      },
+                      "source": "\u003cp\u003eClick this button to view the \u003cstrong\u003eUninterruptible Power Supply (UPS) Popup/Faceplate\u003c/strong\u003e. This popup shows general status for the unit, input \u0026 output values for power, current, and voltages, as well as battery status details.\n\u003cbr\u003e\u003cbr\u003e\nWhile this Perspective view is being used as a popup here, it could also be used as an embedded view within another view as a dedicated, always-visible faceplate to display the UPS details without needing to open a popup.\u003c/p\u003e",
+                      "style": {
+                        "classes": "exchange/datacenter/overview/text/description"
+                      }
+                    },
+                    "type": "ia.display.markdown"
+                  }
+                ],
+                "meta": {
+                  "name": "Ups"
+                },
+                "position": {
+                  "basis": "440px"
+                },
+                "props": {
+                  "alignItems": "center",
+                  "direction": "column",
+                  "style": {
+                    "gap": "10px"
+                  }
+                },
+                "type": "ia.container.flex"
+              },
+              {
+                "children": [
+                  {
+                    "custom": {
+                      "tagPath": "[DataCenterDemo]Exchange/DataCenterDemo/Site1/DataHall1/Section1/AHU/AHU1",
+                      "viewPath": "Exchange/DataCenter/Faceplates/AHU"
+                    },
+                    "events": {
+                      "component": {
+                        "onActionPerformed": {
+                          "config": {
+                            "script": "\tviewPath \u003d self.custom.viewPath\n\ttagPath \u003d self.custom.tagPath\n\tpopupTitle \u003d self.custom.popupTitle\n\tisMobile \u003d self.parent.parent.parent.getChild(\"PopupButtons\").custom.isMobile\n\tviewParams \u003d {\"tagPath\": tagPath}\n\t\n\tif isMobile:\n\t\tmobilePosition \u003d {\"width\": \"100%\", \"height\": \"100%\"}\n\t\tsystem.perspective.openPopup(\u0027ahuPopup-{tagPath}\u0027.format(tagPath \u003d tagPath), viewPath, params\u003dviewParams, title\u003dpopupTitle, position\u003dmobilePosition, showCloseIcon\u003dFalse, resizable\u003dFalse, draggable\u003dFalse, modal\u003dFalse, viewportBound\u003dTrue)\n\telse:\n\t\tsystem.perspective.openPopup(\u0027ahuPopup-{tagPath}\u0027.format(tagPath \u003d tagPath), viewPath, params\u003dviewParams, title\u003dpopupTitle, showCloseIcon\u003dFalse, resizable\u003dTrue, draggable\u003dTrue, modal\u003dFalse, viewportBound\u003dFalse)"
+                          },
+                          "scope": "G",
+                          "type": "script"
+                        }
+                      }
+                    },
+                    "meta": {
+                      "name": "Button"
+                    },
+                    "position": {
+                      "basis": "50px",
+                      "shrink": 0
+                    },
+                    "propConfig": {
+                      "custom.popupTitle": {
+                        "binding": {
+                          "config": {
+                            "fallbackDelay": 2.5,
+                            "mode": "indirect",
+                            "references": {
+                              "tagPath": "{this.custom.tagPath}"
+                            },
+                            "tagPath": "{tagPath}/Info/PopupTitle"
+                          },
+                          "type": "tag"
+                        }
+                      }
+                    },
+                    "props": {
+                      "style": {
+                        "classes": "exchange/datacenter/overview/popup-button"
+                      },
+                      "text": "AHU Popup"
+                    },
+                    "type": "ia.input.button"
+                  },
+                  {
+                    "meta": {
+                      "name": "Description"
+                    },
+                    "position": {
+                      "shrink": 0
+                    },
+                    "props": {
+                      "markdown": {
+                        "escapeHtml": false
+                      },
+                      "source": "\u003cp\u003eClick this button to view the \u003cstrong\u003eAir Handling Unit (AHU) Popup/Faceplate\u003c/strong\u003e. This popup shows general status for the unit, Cooling Fan, and Damper KPIs, along with key temperature values.\n\u003cbr\u003e\u003cbr\u003e\nWhile this Perspective view is being used as a popup here, it could also be used as an embedded view within another view as a dedicated, always-visible faceplate to display the AHU details without needing to open a popup.\u003c/p\u003e",
+                      "style": {
+                        "classes": "exchange/datacenter/overview/text/description"
+                      }
+                    },
+                    "type": "ia.display.markdown"
+                  }
+                ],
+                "meta": {
+                  "name": "Ahu"
+                },
+                "position": {
+                  "basis": "440px"
+                },
+                "props": {
+                  "alignItems": "center",
+                  "direction": "column",
+                  "style": {
+                    "gap": "10px"
+                  }
+                },
+                "type": "ia.container.flex"
+              },
+              {
+                "children": [
+                  {
+                    "custom": {
+                      "tagPath": "[DataCenterDemo]Exchange/DataCenterDemo/Site1/DataHall1/Section1/UPS/UPS1A",
+                      "viewPath": "Exchange/DynamicPopup/DynamicPopup"
+                    },
+                    "events": {
+                      "component": {
+                        "onActionPerformed": {
+                          "config": {
+                            "script": "\tviewPath \u003d self.custom.viewPath\n\ttagPath \u003d self.custom.tagPath\n\tpopupTitle \u003d self.custom.popupTitle\n\tisMobile \u003d self.parent.parent.parent.getChild(\"PopupButtons\").custom.isMobile\n\tviewParams \u003d {\"tagPath\": tagPath, \"mobile\": isMobile}\n\t\n\tif isMobile:\n\t\tmobilePosition \u003d {\"width\": \"100%\", \"height\": \"100%\"}\n\t\tsystem.perspective.openPopup(tagPath, viewPath, params\u003dviewParams, title\u003dpopupTitle, position\u003dmobilePosition, showCloseIcon\u003dFalse, resizable\u003dFalse, draggable\u003dFalse, modal\u003dFalse, viewportBound\u003dTrue)\n\telse:\n\t\tsystem.perspective.openPopup(tagPath, viewPath, params\u003dviewParams, title\u003dpopupTitle, showCloseIcon\u003dFalse, resizable\u003dTrue, draggable\u003dTrue, modal\u003dFalse, viewportBound\u003dFalse)"
+                          },
+                          "scope": "G",
+                          "type": "script"
+                        }
+                      }
+                    },
+                    "meta": {
+                      "name": "Button"
+                    },
+                    "position": {
+                      "basis": "50px",
+                      "shrink": 0
+                    },
+                    "propConfig": {
+                      "custom.popupTitle": {
+                        "binding": {
+                          "config": {
+                            "fallbackDelay": 2.5,
+                            "mode": "indirect",
+                            "references": {
+                              "tagPath": "{this.custom.tagPath}"
+                            },
+                            "tagPath": "{tagPath}/Info/PopupTitle"
+                          },
+                          "type": "tag"
+                        }
+                      }
+                    },
+                    "props": {
+                      "style": {
+                        "classes": "exchange/datacenter/overview/popup-button"
+                      },
+                      "text": "Dynamic Popup"
+                    },
+                    "type": "ia.input.button"
+                  },
+                  {
+                    "meta": {
+                      "name": "Description"
+                    },
+                    "position": {
+                      "shrink": 0
+                    },
+                    "props": {
+                      "markdown": {
+                        "escapeHtml": false
+                      },
+                      "source": "\u003cp\u003eClick this button to view the \u003cstrong\u003eDynamic Popup\u003c/strong\u003e. With this popup, you set a base tag folder path, which will then browse the tags within that folder, and display all of the sub tags, showing the tag name, real-time value, and engineering units.\n\u003cbr\u003e\u003cbr\u003e\nFor this example, the tag path is set to a single instance of a UPS UDT.\u003c/p\u003e",
+                      "style": {
+                        "classes": "exchange/datacenter/overview/text/description"
+                      }
+                    },
+                    "type": "ia.display.markdown"
+                  }
+                ],
+                "meta": {
+                  "name": "Dynamic"
+                },
+                "position": {
+                  "basis": "440px"
+                },
+                "props": {
+                  "alignItems": "center",
+                  "direction": "column",
+                  "style": {
+                    "gap": "10px"
+                  }
+                },
+                "type": "ia.container.flex"
+              }
+            ],
+            "meta": {
+              "name": "PopupButtons"
+            },
+            "position": {
+              "shrink": 0
+            },
+            "propConfig": {
+              "custom.isMobile": {
+                "binding": {
+                  "config": {
+                    "expression": "{page.props.dimensions.viewport.width} \u003c 1400"
+                  },
+                  "type": "expr"
+                }
+              }
+            },
+            "props": {
+              "justify": "space-evenly",
+              "style": {
+                "column-gap": "20px",
+                "row-gap": "50px"
+              },
+              "wrap": "wrap"
+            },
+            "type": "ia.container.flex"
+          }
+        ],
+        "meta": {
+          "name": "WidgetsAndPopupButtons"
+        },
+        "position": {
+          "grow": 1,
+          "shrink": 0
+        },
+        "props": {
+          "direction": "column",
+          "justify": "space-evenly",
+          "style": {
+            "gap": "20px"
+          }
+        },
+        "type": "ia.container.flex"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "direction": "column",
+      "style": {
+        "classes": "exchange/datacenter/overview/section/root-container"
+      }
+    },
+    "type": "ia.container.flex"
+  }
+}

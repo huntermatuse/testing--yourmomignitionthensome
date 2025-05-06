@@ -1,0 +1,18 @@
+{
+  "scope": "G",
+  "documentation": "v1.0.0 - based on Perspective Radar Chart resource",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "view.json",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModification": {
+      "actor": "external",
+      "timestamp": "2025-05-01T20:50:52Z"
+    },
+    "lastModificationSignature": "0d86083ff59a68a4eac619b330a85cd03413b5105caa5d91a4b8a008a9ce012d"
+  }
+}

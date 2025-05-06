@@ -1,0 +1,84 @@
+{
+  "custom": {},
+  "params": {
+    "text": "Text Placeholder",
+    "tooltip": "Tooltip",
+    "value": true
+  },
+  "propConfig": {
+    "params.text": {
+      "paramDirection": "input",
+      "persistent": true
+    },
+    "params.tooltip": {
+      "paramDirection": "input",
+      "persistent": true
+    },
+    "params.value": {
+      "paramDirection": "inout",
+      "persistent": true
+    }
+  },
+  "props": {
+    "defaultSize": {
+      "height": 57,
+      "width": 215
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "Checkbox",
+          "tooltip": {
+            "enabled": true,
+            "location": "top-right",
+            "style": {
+              "textAlign": "left",
+              "whiteSpace": "pre"
+            }
+          }
+        },
+        "position": {
+          "basis": "36px",
+          "grow": 1
+        },
+        "propConfig": {
+          "meta.tooltip.text": {
+            "binding": {
+              "config": {
+                "path": "view.params.tooltip"
+              },
+              "type": "property"
+            }
+          },
+          "props.selected": {
+            "binding": {
+              "config": {
+                "bidirectional": true,
+                "path": "view.params.value"
+              },
+              "type": "property"
+            }
+          },
+          "props.text": {
+            "binding": {
+              "config": {
+                "path": "view.params.text"
+              },
+              "type": "property"
+            }
+          }
+        },
+        "type": "ia.input.checkbox"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "direction": "column"
+    },
+    "type": "ia.container.flex"
+  }
+}

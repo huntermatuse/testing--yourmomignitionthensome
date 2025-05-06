@@ -1,0 +1,9 @@
+{
+  "base": {
+    "style": {
+      "fontSize": "4px",
+      "textAlign": "right",
+      "fill": "var(--neutral-90)"
+    }
+  }
+}

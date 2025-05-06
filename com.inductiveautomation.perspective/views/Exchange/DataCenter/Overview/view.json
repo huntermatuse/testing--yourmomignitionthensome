@@ -1,0 +1,81 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {},
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "domId": "overviewTitle",
+          "name": "Title"
+        },
+        "position": {
+          "shrink": 0
+        },
+        "props": {
+          "style": {
+            "classes": "exchange/datacenter/overview/text/primary-title",
+            "marginBottom": "5px"
+          },
+          "text": "Data Centers Industry Pack Overview"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "children": [
+          {
+            "meta": {
+              "name": "WidgetsAndFaceplates"
+            },
+            "props": {
+              "path": "Exchange/DataCenter/WidgetsAndFaceplates"
+            },
+            "type": "ia.display.view"
+          },
+          {
+            "meta": {
+              "name": "ComtradeOverview"
+            },
+            "position": {
+              "tabIndex": 1
+            },
+            "props": {
+              "path": "Exchange/DataCenter/ComtradeOverview"
+            },
+            "type": "ia.display.view"
+          }
+        ],
+        "meta": {
+          "name": "TabContainer"
+        },
+        "position": {
+          "basis": "300px",
+          "grow": 1
+        },
+        "props": {
+          "contentStyle": {
+            "backgroundColor": "transparent",
+            "borderStyle": "none"
+          },
+          "currentTabIndex": 1,
+          "menuType": "modern",
+          "tabSize": {
+            "width": 250
+          },
+          "tabs": [
+            "Widgets And Faceplates",
+            "Comtrade Dashboard"
+          ]
+        },
+        "type": "ia.container.tab"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "direction": "column"
+    },
+    "type": "ia.container.flex"
+  }
+}
